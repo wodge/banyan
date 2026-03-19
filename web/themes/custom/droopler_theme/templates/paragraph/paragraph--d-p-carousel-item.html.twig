@@ -1,0 +1,10 @@
+{% embed 'droopler_theme:paragraph-d-p-carousel-item' with {
+  d_p_carousel_item_link: paragraph.link
+} %}
+  {% block content %}
+    {{ content.group_d_content }}
+  {% endblock %}
+  {% block description %}
+    {{ content.group_d_description }}
+  {% endblock %}
+{% endembed %}

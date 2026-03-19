@@ -1,0 +1,25 @@
+.facets-result-item {
+  display: flex;
+
+  &__status {
+    display: flex;
+
+    &::before {
+      content: url("../../src/assets/icons/x-white.svg");
+      width: 25px;
+      height: 14px;
+      display: inline-block;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  &__count {
+    margin-left: auto;
+  }
+
+  &__value {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../../../src/scss/init";
+
+.form {
+  .form-control {
+    --dp-bs-body-color: var(--form-input-color);
+    background-color: var(--form-input-background-color);
+    border-color: var(--form-input-border-color);
+  }
+
+  .form-floating {
+    label {
+      color: var(--form-input-color);
+    }
+
+    & > .form-control:focus,
+    & > .form-control:not(:placeholder-shown),
+    & > .form-control-plaintext,
+    & > .form-select {
+      & ~ label {
+        color: var(--form-input-color);
+
+        &::after {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .form-check {
+    .form-checkbox {
+      float: none;
+      margin-right: 0.5rem;
+
+      &:checked {
+        background-color: var(--checkbox-color);
+        border-color: var(--checkbox-color);
+      }
+    }
+
+    .form-check-label {
+      color: var(--body-text-color);
+    }
+  }
+}

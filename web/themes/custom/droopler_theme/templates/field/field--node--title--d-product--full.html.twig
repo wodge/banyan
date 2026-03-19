@@ -1,0 +1,7 @@
+{% for item in items %}
+  {% include "droopler_theme:base-heading" with {
+    heading_tag: 'h1',
+    label: item.content,
+    heading_base_class: 'h4'
+  }%}
+{% endfor %}

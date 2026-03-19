@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Template for the branding block.
+ */
+#}
+{% block content %}
+  {% include 'droopler_theme:navbar-brand' with {
+    image: site_logo,
+    width: '100%',
+    height: 'auto',
+    path: path('<front>'),
+    alt: 'Skip to the home page',
+    title: 'Skip to the home page',
+  } %}
+{% endblock %}

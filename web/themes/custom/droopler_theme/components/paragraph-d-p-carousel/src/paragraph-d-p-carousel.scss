@@ -1,0 +1,72 @@
+@import "../../../src/scss/init";
+
+.d-p-carousel {
+  --divider-last-child-display: inline-block;
+
+  &[data-has-dividers] .d-p-carousel-item:not(
+  :first-child,
+  [aria-hidden="true"]+[aria-hidden="false"],
+  [aria-hidden="false"]+[aria-hidden="true"]) {
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: var(--carousel-item-divider-color);
+      left: 0;
+      top: 0;
+      width: 1px;
+      height: 100%;
+    }
+  }
+
+  .heading {
+    margin-top: var(--content-spacer-s);
+  }
+
+  @include media-breakpoint-up(lg) {
+    &__carousel.container {
+      padding: 0;
+    }
+  }
+
+
+
+  &__header-column,
+  &__footer-column {
+    text-align: center;
+  }
+
+  &__items {
+    .slick-prev,
+    .slick-next, {
+      opacity: 0.75;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:before {
+        font-size: 0;
+        display: block;
+        width: 48px;
+        height: 48px;
+      }
+    }
+
+    .slick-prev {
+      &:before {
+        content: url('../../src/assets/icons/button-left.svg');
+      }
+    }
+
+    .slick-next {
+      &:before {
+        content: url('../../src/assets/icons/button-right.svg');
+      }
+    }
+  }
+
+  &__items,
+  &__footer {
+    margin-top: var(--content-spacer-m);
+  }
+}

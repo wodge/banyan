@@ -1,0 +1,27 @@
+{% embed 'droopler_theme:paragraph' %}
+
+  {% block component_content %}
+    {% embed 'droopler_theme:paragraph-d-p-reference-content' %}
+      {% block header %}
+        {{ content.group_header }}
+      {% endblock %}
+
+      {% block content %}
+        {{ content.group_content }}
+      {% endblock %}
+
+      {% block items %}
+        {{ content.group_items }}
+      {% endblock %}
+
+      {% block cta %}
+        {{ content.group_cta }}
+      {% endblock %}
+    {% endembed %}
+  {% endblock %}
+
+  {% block content %}
+    {{ content|without('group_header', 'group_content', 'group_items', 'group_cta') }}
+  {% endblock %}
+
+{% endembed %}

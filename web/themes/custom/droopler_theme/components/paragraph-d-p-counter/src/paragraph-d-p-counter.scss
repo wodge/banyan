@@ -1,0 +1,16 @@
+@import "../../../src/scss/init";
+
+.d-p-counter {
+  $root: &;
+
+  position: relative;
+
+  &.col {
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      flex: 1 0 auto;
+      width: auto;
+    }
+  }
+}

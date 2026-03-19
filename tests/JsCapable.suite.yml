@@ -1,0 +1,32 @@
+actor: JsCapableTester
+suite_namespace: Tests\JsCapable
+step_decorators:
+  - \Codeception\Step\TryTo
+  - \Codeception\Step\ConditionalAssertion
+modules:
+    # enable helpers as array
+    enabled:
+      - WebDriver:
+          url: 'http://web/'
+          host: selenium-chrome
+          browser: chrome
+          restart: true
+          capabilities:
+            goog:loggingPrefs:
+              browser: 'ALL'
+            goog:chromeOptions:
+              args: [ 
+                '--disable-dev-shm-usage', 
+                '--no-sandbox', 
+                '--disable-gpu',
+                '--window-size=1920,1080'
+              ]
+      - Asserts
+      - DrupalAcceptance
+      - DrupalDrush
+      - \Tests\Support\Helper\DrupalHelper
+      - \Tests\Support\Helper\UserLogin
+      - \Tests\Support\Helper\DrushHelper
+      - \Tests\Support\Helper\ParagraphHelper
+params:
+  - env

@@ -1,0 +1,34 @@
+@import "../../../src/scss/init";
+
+.block-exposed-filters.views-exposed-form {
+  .select2 {
+    &-selection {
+      height: 100%;
+      background-color: $color-paris;
+      border: none;
+      border-radius: 0.125rem;
+      display: flex;
+      align-items: center;
+
+      &__rendered {
+        @include typography('text-14-regular');
+        padding: var(--content-spacer-xs) var(--content-spacer-s);
+        color: var(--form-input-text-color);
+        font-weight: 500;
+      }
+
+      &__arrow {
+        aspect-ratio: 1;
+        background-image: url("../../src/assets/images/arrow.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        height: 1rem;
+        width: 2rem;
+
+        b {
+          display: none;
+        }
+      }
+    }
+  }
+}
