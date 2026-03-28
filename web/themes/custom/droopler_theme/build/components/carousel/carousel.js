@@ -1,2 +1,21 @@
-!function(a){"use strict";Drupal.behaviors.d_p_carousel={attach:function(c){a("[data-slick]",c).each((function(c,s){var i=a(s),e=i.children().length,l=i.data("slick");e>=2&&(i.slick(),l.slidesToShow>=e&&i.addClass("carousel-fixed"))}))}}}(jQuery);
+/******/ (function() { // webpackBootstrap
+/*!*****************************************!*\
+  !*** ./components/carousel/carousel.js ***!
+  \*****************************************/
+!function (a, c) {
+  "use strict";
+
+  c.behaviors.d_p_carousel = {
+    attach: function attach(c) {
+      a("[data-slick]", c).each(function (c, s) {
+        var i = a(s),
+          e = i.children().length,
+          l = i.data("slick");
+        e >= 2 && (i.slick(), l.slidesToShow >= e && i.addClass("carousel-fixed"));
+      });
+    }
+  };
+}(jQuery, Drupal);
+/******/ })()
+;
 //# sourceMappingURL=carousel.js.map

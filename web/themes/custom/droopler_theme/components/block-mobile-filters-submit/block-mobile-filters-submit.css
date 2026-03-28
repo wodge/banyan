@@ -1,3 +1,12 @@
-.block-mobile-filters-submit__content{text-align:center}@media(min-width:992px){.block-mobile-filters-submit .mobile-filter-close{display:none}}
+/* stylelint-disable */
+/* stylelint-enable */
+.block-mobile-filters-submit__content {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .block-mobile-filters-submit .mobile-filter-close {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=block-mobile-filters-submit.scss.css.map*/
