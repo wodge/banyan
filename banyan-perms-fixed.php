@@ -1,0 +1,95 @@
+<?php
+\$permissions = [
+  'public_group-member' => [
+    'view group',
+    'edit own group membership',
+    'leave group',
+    'view group members',
+    'create discussion group_node entity',
+    'delete own discussion group_node entity',
+    'edit own discussion group_node entity',
+    'view discussion group_node entity',
+    'view event group_node entity',
+    'view document group_node entity',
+    'view news group_node entity',
+    'view group invitations',
+  ],
+  'public_group-editor' => [
+    'view group',
+    'edit own group membership',
+    'leave group',
+    'view group members',
+    'create discussion group_node entity',
+    'delete own discussion group_node entity',
+    'edit own discussion group_node entity',
+    'view discussion group_node entity',
+    'create event group_node entity',
+    'delete own event group_node entity',
+    'edit own event group_node entity',
+    'edit any event group_node entity',
+    'view event group_node entity',
+    'create document group_node entity',
+    'delete own document group_node entity',
+    'edit own document group_node entity',
+    'edit any document group_node entity',
+    'view document group_node entity',
+    'create news group_node entity',
+    'delete own news group_node entity',
+    'edit own news group_node entity',
+    'edit any news group_node entity',
+    'view news group_node entity',
+    'invite users to group',
+    'view group invitations',
+  ],
+  'private_group-member' => [
+    'view group',
+    'edit own group membership',
+    'leave group',
+    'view group members',
+    'create discussion group_node entity',
+    'delete own discussion group_node entity',
+    'edit own discussion group_node entity',
+    'view discussion group_node entity',
+    'view event group_node entity',
+    'view document group_node entity',
+    'view news group_node entity',
+  ],
+  'private_group-editor' => [
+    'view group',
+    'edit own group membership',
+    'leave group',
+    'view group members',
+    'create discussion group_node entity',
+    'delete own discussion group_node entity',
+    'edit own discussion group_node entity',
+    'view discussion group_node entity',
+    'create event group_node entity',
+    'delete own event group_node entity',
+    'edit own event group_node entity',
+    'edit any event group_node entity',
+    'view event group_node entity',
+    'create document group_node entity',
+    'delete own document group_node entity',
+    'edit own document group_node entity',
+    'edit any document group_node entity',
+    'view document group_node entity',
+    'create news group_node entity',
+    'delete own news group_node entity',
+    'edit own news group_node entity',
+    'edit any news group_node entity',
+    'view news group_node entity',
+    'invite users to group',
+    'view group invitations',
+  ],
+];
+foreach (\$permissions as \$role_id => \$perms) {
+  \$role = \Drupal\group\Entity\GroupRole::load(\$role_id);
+  if (\$role) {
+    \$role->grantPermissions(\$perms);
+    \$role->save();
+    echo 'Permissions set for ' . \$role_id . PHP_EOL;
+  } else {
+    echo 'Role not found: ' . \$role_id . PHP_EOL;
+  }
+}
+
