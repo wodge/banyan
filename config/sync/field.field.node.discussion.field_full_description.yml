@@ -1,0 +1,24 @@
+uuid: a9faed87-70b5-4130-86cf-095d93077852
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_full_description
+    - node.type.discussion
+  module:
+    - text
+id: node.discussion.field_full_description
+field_name: field_full_description
+entity_type: node
+bundle: discussion
+label: 'Full Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
