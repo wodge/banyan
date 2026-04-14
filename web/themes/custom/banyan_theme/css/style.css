@@ -1,14 +1,71 @@
 /**
  * Banyan Theme - Global Styles
- * Override Droopler CSS variables here for branding
+ * Overrides Droopler CSS variables for Banyan branding
+ *
+ * Primary palette inspired by the Banyan tree:
+ * --banyan-green-dark:  #1a3c2e  (deep forest)
+ * --banyan-green:       #2c6e49  (mid green)
+ * --banyan-green-light: #52b788  (leaf green)
+ * --banyan-gold:        #d4a017  (warm accent)
+ * --banyan-bark:        #5c3d2e  (earthy brown)
  */
 
 :root {
-  /* Primary brand colours - adjust these per client */
-  --color-primary: #2c5f2e;
-  --color-secondary: #97bc62;
-  --color-accent: #f0a500;
+  --banyan-green-dark:  #1a3c2e;
+  --banyan-green:       #2c6e49;
+  --banyan-green-light: #52b788;
+  --banyan-gold:        #d4a017;
+  --banyan-bark:        #5c3d2e;
+}
 
-  /* Typography */
-  --font-base: 'Inter', sans-serif;
+/* Override Droopler's primary colour (achilles = #3d50fd by default) */
+*[data-theme="theme-light"],
+*[data-theme="theme-primary"],
+*[data-theme="theme-secondary"],
+*[data-theme="theme-dark"] {
+  --dp-bs-link-color-rgb: var(--banyan-green);
+  --dp-bs-link-hover-color-rgb: var(--banyan-green-dark);
+  --counter-color: var(--banyan-green);
+  --navigation-desktop-top-menu-link-color-hover: var(--banyan-green);
+  --navigation-desktop-bottom-menu-link-color-hover: var(--banyan-green);
+  --navigation-desktop-bottom-submenu-link-color-active: var(--banyan-green-light);
+  --navigation-desktop-bottom-submenu-link-color-hover: var(--banyan-green-light);
+  --header-search-page-link-color-hover: var(--banyan-green);
+  --header-language-switcher-link-color-hover: var(--banyan-green);
+  --divider-background-color: var(--banyan-green-light);
+  --facet-active-bg-color: var(--banyan-green);
+  --category-text: var(--banyan-green);
+}
+
+/* Light theme footer */
+*[data-theme="theme-light"] {
+  --footer-secondary-background-color: var(--banyan-green-dark);
+  --footer-secondary-link-color: #fff;
+}
+
+/* Bootstrap primary colour override */
+.btn-primary,
+a.btn-primary {
+  background-color: var(--banyan-green) !important;
+  border-color: var(--banyan-green) !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover,
+a.btn-primary:hover {
+  background-color: var(--banyan-green-dark) !important;
+  border-color: var(--banyan-green-dark) !important;
+}
+
+a {
+  color: var(--banyan-green);
+}
+
+a:hover {
+  color: var(--banyan-green-dark);
+}
+/* Dark sections use Banyan deep forest green instead of near-black */
+*[data-theme="theme-dark"],
+*[data-theme="theme-primary"] {
+  --section-background-color: var(--banyan-green-dark) !important;
 }
