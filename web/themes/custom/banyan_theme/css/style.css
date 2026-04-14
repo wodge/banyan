@@ -1,0 +1,14 @@
+/**
+ * Banyan Theme - Global Styles
+ * Override Droopler CSS variables here for branding
+ */
+
+:root {
+  /* Primary brand colours - adjust these per client */
+  --color-primary: #2c5f2e;
+  --color-secondary: #97bc62;
+  --color-accent: #f0a500;
+
+  /* Typography */
+  --font-base: 'Inter', sans-serif;
+}

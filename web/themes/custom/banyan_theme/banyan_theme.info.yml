@@ -1,0 +1,22 @@
+name: Banyan Theme
+type: theme
+description: 'Banyan community and intranet theme'
+core_version_requirement: ^10 || ^11
+base theme: droopler_theme
+libraries:
+  - banyan_theme/global
+regions:
+  header_branding: 'Header Branding'
+  header_secondary: 'Header Secondary'
+  header_primary: 'Header Primary'
+  admin_tabs: 'Admin tabs'
+  content: Content
+  top_content: 'Top content'
+  aside: Aside
+  footer_primary_first: 'Footer Primary First'
+  footer_primary_second: 'Footer Primary Second'
+  footer_primary_third: 'Footer Primary Third'
+  footer_primary_fourth: 'Footer Primary Fourth'
+  footer_primary_fifth: 'Footer Primary Fifth'
+  footer_primary_sixth: 'Footer Primary Sixth'
+  footer_secondary: 'Footer Secondary'
