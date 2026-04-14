@@ -1,0 +1,62 @@
+uuid: 6d004ba8-1e24-44e3-8bd9-15f5cbabdcfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.staff_profile.field_bio
+    - field.field.profile.staff_profile.field_department
+    - field.field.profile.staff_profile.field_job_title
+    - field.field.profile.staff_profile.field_profile_picture
+    - field.field.profile.staff_profile.field_telephone_number
+    - profile.type.staff_profile
+  module:
+    - media_library
+    - text
+id: profile.staff_profile.default
+targetEntityType: profile
+bundle: staff_profile
+mode: default
+content:
+  field_bio:
+    type: text_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_department:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_job_title:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_profile_picture:
+    type: media_library_widget
+    weight: 30
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_telephone_number:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  is_default: true

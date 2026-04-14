@@ -1,0 +1,22 @@
+uuid: c145b47d-4ece-4b9a-9242-c8395688d2e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_bio
+    - profile.type.staff_profile
+  module:
+    - text
+id: profile.staff_profile.field_bio
+field_name: field_bio
+entity_type: profile
+bundle: staff_profile
+label: Bio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

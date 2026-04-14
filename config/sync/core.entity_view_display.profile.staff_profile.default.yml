@@ -1,0 +1,61 @@
+uuid: 3af1b3d9-487d-4457-8b52-e63e7e9a7ff5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.staff_profile.field_bio
+    - field.field.profile.staff_profile.field_department
+    - field.field.profile.staff_profile.field_job_title
+    - field.field.profile.staff_profile.field_profile_picture
+    - field.field.profile.staff_profile.field_telephone_number
+    - profile.type.staff_profile
+  module:
+    - text
+id: profile.staff_profile.default
+targetEntityType: profile
+bundle: staff_profile
+mode: default
+content:
+  field_bio:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_department:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_job_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_profile_picture:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_telephone_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  private_message_link: true
+  search_api_excerpt: true

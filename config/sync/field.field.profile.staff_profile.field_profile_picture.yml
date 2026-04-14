@@ -1,0 +1,29 @@
+uuid: da679a7c-f73b-42dd-8eec-bddcae65cec6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_profile_picture
+    - media.type.d_image
+    - profile.type.staff_profile
+id: profile.staff_profile.field_profile_picture
+field_name: field_profile_picture
+entity_type: profile
+bundle: staff_profile
+label: 'Profile Picture'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      d_image: d_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
