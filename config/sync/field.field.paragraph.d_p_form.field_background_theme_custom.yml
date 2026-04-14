@@ -1,0 +1,27 @@
+uuid: 84bdba6d-5c4b-46b4-811c-0f9a01534c5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_theme_custom
+    - paragraphs.paragraphs_type.d_p_form
+  module:
+    - color_field
+_core:
+  default_config_hash: UyqseU4_isYQdteOosRaQ5qyRcVqemTOJwBbBNH42vo
+id: paragraph.d_p_form.field_background_theme_custom
+field_name: field_background_theme_custom
+entity_type: paragraph
+bundle: d_p_form
+label: 'Background color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#ffffff'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

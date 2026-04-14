@@ -1,0 +1,24 @@
+uuid: 38a41eec-2ae6-45ea-b936-73ea3085faed
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_reference_content
+_core:
+  default_config_hash: 5vKjCLVjsJ_T3kOCjbwCoosQ-PG0M3dODX5z1W-Istc
+id: paragraph.d_p_reference_content.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_reference_content
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

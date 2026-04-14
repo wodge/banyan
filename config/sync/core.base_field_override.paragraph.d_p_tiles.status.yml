@@ -1,0 +1,24 @@
+uuid: 4f006d91-6708-4d6b-b3a5-4ae41afc7e15
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_tiles
+_core:
+  default_config_hash: '-CMuntMlEs6IEFaOko9FmZB08MChUV__w9w0b2HE_rw'
+id: paragraph.d_p_tiles.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_tiles
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,24 @@
+uuid: e77ecbc7-5b3c-4ab2-9069-8113cbe577d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: l88vN8ncvgCNurr8fhS_Dq4GcZ6HR_OKEdOEKl62vys
+id: taxonomy_term.tags.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tags
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

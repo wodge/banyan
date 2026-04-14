@@ -1,0 +1,25 @@
+uuid: 5c6a31ad-ce45-4bb3-ae8e-9c6bf0be58e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tiles_gallery_side
+    - paragraphs.paragraphs_type.d_p_side_tiles
+  module:
+    - options
+_core:
+  default_config_hash: kEIceYm5KlFBB28AlBBcLE3si-LQEkcNj9M9Cen8JfE
+id: paragraph.d_p_side_tiles.field_tiles_gallery_side
+field_name: field_tiles_gallery_side
+entity_type: paragraph
+bundle: d_p_side_tiles
+label: 'Tiles gallery side'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

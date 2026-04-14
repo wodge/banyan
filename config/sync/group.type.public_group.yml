@@ -1,0 +1,12 @@
+uuid: ceefb290-0170-4002-b4b3-0d3d309997c9
+langcode: en
+status: true
+dependencies: {  }
+id: public_group
+label: 'Public Group'
+description: 'Groups with publicly visible content'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - public_group-admin

@@ -1,0 +1,20 @@
+uuid: 35dc7739-bc79-432c-bd6c-d0bf53d78fc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_side_tiles
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: kdZE78WjXUuGXezA3Vm-80xbJe3AGSdXnWE_xnwFNKY
+id: paragraph.d_p_side_tiles
+target_entity_type_id: paragraph
+target_bundle: d_p_side_tiles
+default_langcode: site_default
+language_alterable: true

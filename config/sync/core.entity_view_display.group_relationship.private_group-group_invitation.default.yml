@@ -1,0 +1,43 @@
+uuid: a18b277f-f182-4cfd-b7ac-bdbb669effbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.private_group-group_invitation.group_roles
+    - field.field.group_relationship.private_group-group_invitation.invitation_status
+    - field.field.group_relationship.private_group-group_invitation.invitee_mail
+    - group.relationship_type.private_group-group_invitation
+id: group_relationship.private_group-group_invitation.default
+targetEntityType: group_relationship
+bundle: private_group-group_invitation
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+  invitation_status:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: -2
+    region: content
+  invitee_mail:
+    type: email_mailto
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: -3
+    region: content
+hidden:
+  entity_id: true
+  langcode: true
+  search_api_excerpt: true
+  uid: true

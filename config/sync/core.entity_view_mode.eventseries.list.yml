@@ -1,0 +1,13 @@
+uuid: bb875931-a549-46d3-98a2-3d7e68054e7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - recurring_events
+_core:
+  default_config_hash: mz23POjw79mHYOJRaxmdHod9XnOhofZ0TaOuLMQHhyQ
+id: eventseries.list
+label: List
+description: null
+targetEntityType: eventseries
+cache: true

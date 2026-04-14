@@ -1,0 +1,27 @@
+uuid: 4e5a665a-cf1f-435e-9f30-f3332689087a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_theme_custom
+    - paragraphs.paragraphs_type.d_p_side_by_side
+  module:
+    - color_field
+_core:
+  default_config_hash: zjIa5FlxZw6Czm9E0ShsRxV7gYEe9n00Tm85t5Khc5c
+id: paragraph.d_p_side_by_side.field_text_theme_custom
+field_name: field_text_theme_custom
+entity_type: paragraph
+bundle: d_p_side_by_side
+label: 'Text color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#000000'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

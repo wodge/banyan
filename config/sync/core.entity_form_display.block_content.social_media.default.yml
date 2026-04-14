@@ -1,0 +1,29 @@
+uuid: df93e04c-c6fb-4e69-8c71-25d00f93275a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+_core:
+  default_config_hash: oMRIlTmiq-HsdSvwit47sM3ZH6bEWDbJCGw0hjAU6ds
+id: block_content.social_media.default
+targetEntityType: block_content
+bundle: social_media
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: 9e119d4a-9c6b-4fdb-8fce-5c6271fe45c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+_core:
+  default_config_hash: xJm87yED6M1ZFjf3aGUatDYs3OshPQ0Ckp9NS68Gjak
+id: taxonomy_term.d_product_categories.name
+field_name: name
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

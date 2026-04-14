@@ -1,0 +1,27 @@
+uuid: e9626622-2a05-4e2e-a5e9-1e7cf2553d58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_theme_custom
+    - paragraphs.paragraphs_type.d_p_side_tiles
+  module:
+    - color_field
+_core:
+  default_config_hash: TQH9Z1dI7m_uoHnYxvvk5x0RH0PAFS5Wv_BuVInQzcI
+id: paragraph.d_p_side_tiles.field_background_theme_custom
+field_name: field_background_theme_custom
+entity_type: paragraph
+bundle: d_p_side_tiles
+label: 'Background color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#ffffff'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

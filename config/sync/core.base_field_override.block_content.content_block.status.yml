@@ -1,0 +1,24 @@
+uuid: 1a1653be-1a60-4277-afb5-28d897ed80af
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+_core:
+  default_config_hash: v9HcN-lGbnLqEyWTAXHsiWBxyj0X2qsWzv5G66ID6vQ
+id: block_content.content_block.status
+field_name: status
+entity_type: block_content
+bundle: content_block
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

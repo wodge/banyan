@@ -1,0 +1,20 @@
+uuid: 8e647089-d1f0-426f-816c-845c5b8dedc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+_core:
+  default_config_hash: lSRq30doXOxr2ToC94dUSL6-OfTvbt7rDe4U9QvzVWw
+id: block_content.d_paragraph_block.changed
+field_name: changed
+entity_type: block_content
+bundle: d_paragraph_block
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

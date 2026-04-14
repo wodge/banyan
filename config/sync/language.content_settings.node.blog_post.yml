@@ -1,0 +1,20 @@
+uuid: 5ad21291-7604-4add-9dc2-e352313a0404
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog_post
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: bzvDK1jsxeEwSSeJ-C6VOGHPxj06EP52EHPYaTxXNvE
+id: node.blog_post
+target_entity_type_id: node
+target_bundle: blog_post
+default_langcode: site_default
+language_alterable: true

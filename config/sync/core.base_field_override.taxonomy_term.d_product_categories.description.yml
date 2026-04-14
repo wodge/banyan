@@ -1,0 +1,23 @@
+uuid: 4cab804b-48ee-41cf-8fa9-8bfa4ab644a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+  module:
+    - text
+_core:
+  default_config_hash: kSRbnc1R03cUnQgC9nWN4uOe1ZF-dmXj3EtdFtWuYy8
+id: taxonomy_term.d_product_categories.description
+field_name: description
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

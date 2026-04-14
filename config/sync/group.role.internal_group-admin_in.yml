@@ -1,0 +1,15 @@
+uuid: fa128f85-a8d3-4fce-b396-c24162fb6960
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+    - user.role.administrator
+id: internal_group-admin_in
+label: Administrator
+weight: 102
+admin: true
+scope: insider
+global_role: administrator
+group_type: internal_group
+permissions: {  }

@@ -1,0 +1,13 @@
+uuid: 3b2a0f2b-f948-4a76-bb71-e489ef836fc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fpzn1mhdVAcM8Q_LUaBnvkHnnnTajcQLrhvTV_ca_BU
+id: node.d_small_box
+label: 'Small Box'
+description: ''
+targetEntityType: node
+cache: true

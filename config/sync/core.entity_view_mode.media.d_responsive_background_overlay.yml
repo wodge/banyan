@@ -1,0 +1,13 @@
+uuid: 42f12e39-feb2-48a6-91d4-718c427399b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: kHMSutQYePyU-1sDm_9xyu6sXtQR-cZkW2lI11bAktE
+id: media.d_responsive_background_overlay
+label: 'Responsive background overlay'
+description: ''
+targetEntityType: media
+cache: true

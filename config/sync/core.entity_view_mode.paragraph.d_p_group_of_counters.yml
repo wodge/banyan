@@ -1,0 +1,13 @@
+uuid: 33c8cda3-2a44-4b59-bf91-c1460b343758
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: PSwUwLPUJVAXjqMrebLwLq1xzVnyyb5bpc6DG19uQNg
+id: paragraph.d_p_group_of_counters
+label: 'Group of counters'
+description: ''
+targetEntityType: paragraph
+cache: true

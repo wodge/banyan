@@ -1,0 +1,38 @@
+uuid: 6e936419-4e4d-44e3-86df-e6fe4670b73e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: ShxAEx7Ga78Ky869HMbxKCb1Uk-xs2Kq4urNr3OyNX0
+id: paragraph.field_theme
+field_name: field_theme
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: theme-light
+      label: Light
+    -
+      value: theme-dark
+      label: Dark
+    -
+      value: theme-primary
+      label: Primary
+    -
+      value: theme-secondary
+      label: Secondary
+    -
+      value: theme-custom
+      label: Custom
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

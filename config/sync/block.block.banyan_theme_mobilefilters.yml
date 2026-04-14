@@ -1,0 +1,30 @@
+uuid: 73451cf7-346d-4d3b-aeba-15347488be59
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:mobile_filters:97f6e1da-3543-475e-93e4-bea115d6aaea'
+  module:
+    - block_content
+    - system
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: j5uxjaZQaXsNzk1yYKUq9EwIEFM5lyrbG1qqcs88oWc
+id: banyan_theme_mobilefilters
+theme: banyan_theme
+region: header_branding
+weight: -13
+provider: null
+plugin: 'block_content:97f6e1da-3543-475e-93e4-bea115d6aaea'
+settings:
+  id: 'block_content:97f6e1da-3543-475e-93e4-bea115d6aaea'
+  label: 'Mobile filters'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/products\r\n/products-0"

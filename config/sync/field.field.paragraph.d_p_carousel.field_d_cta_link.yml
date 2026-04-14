@@ -1,0 +1,25 @@
+uuid: 3c3fdd6c-df1e-4899-9baa-33846e467e2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_cta_link
+    - paragraphs.paragraphs_type.d_p_carousel
+  module:
+    - link
+_core:
+  default_config_hash: vzr7V3WXeHdsFz5uth5hMYaCgJwonyiUjZhnywWlyPI
+id: paragraph.d_p_carousel.field_d_cta_link
+field_name: field_d_cta_link
+entity_type: paragraph
+bundle: d_p_carousel
+label: 'Call To Action'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

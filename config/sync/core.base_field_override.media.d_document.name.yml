@@ -1,0 +1,22 @@
+uuid: dee478ba-b1be-407f-b894-2f283a08ded7
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+_core:
+  default_config_hash: _7Ht6P_66mgkGuLug-5bBzP5JH7sIhw5_XS9eqgGxCo
+id: media.d_document.name
+field_name: name
+entity_type: media
+bundle: d_document
+label: Name
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

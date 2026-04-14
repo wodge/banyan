@@ -1,0 +1,20 @@
+uuid: dec3841c-34a3-4e43-97ae-5c9b725f52b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: itsgbJQX8_q14AYiNVg0iWWr_ZiE1FOw3CM5ZmwuzCM
+id: taxonomy_term.d_product_categories
+target_entity_type_id: taxonomy_term
+target_bundle: d_product_categories
+default_langcode: site_default
+language_alterable: true

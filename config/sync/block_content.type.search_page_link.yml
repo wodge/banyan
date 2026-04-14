@@ -1,0 +1,10 @@
+uuid: ab6a43c5-b52b-4517-b7c1-b898fabfb733
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lkeZhz2CF-brlzBECjdHoGffROWdT4grAC0Wr1c3uaY
+id: search_page_link
+label: 'Search page link'
+revision: false
+description: null

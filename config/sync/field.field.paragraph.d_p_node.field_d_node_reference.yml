@@ -1,0 +1,27 @@
+uuid: a2cf569a-1c10-4089-8c68-a94eadaa8939
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_node_reference
+    - paragraphs.paragraphs_type.d_p_node
+_core:
+  default_config_hash: zDUUwJkzWC-k9teYTGBKXvdo9icH2bp4XiIINjGDczc
+id: paragraph.d_p_node.field_d_node_reference
+field_name: field_d_node_reference
+entity_type: paragraph
+bundle: d_p_node
+label: 'Referenced node'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: node_reference_list
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

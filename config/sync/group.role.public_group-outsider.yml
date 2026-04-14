@@ -1,0 +1,18 @@
+uuid: 4d4364cc-6146-40b9-b4d2-48095a2245e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+    - user.role.authenticated
+id: public_group-outsider
+label: Outsider
+weight: -101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: public_group
+permissions:
+  - 'view event group_node entity'
+  - 'view group'
+  - 'view news group_node entity'

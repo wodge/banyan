@@ -1,0 +1,17 @@
+uuid: 3d91e816-ee27-434f-a7a9-b52422f26a8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private_group
+    - node.type.document
+  module:
+    - gnode
+    - node
+id: private_group-17e348312acb974550
+group_type: private_group
+content_plugin: 'group_node:document'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

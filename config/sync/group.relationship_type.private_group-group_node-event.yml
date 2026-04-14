@@ -1,0 +1,17 @@
+uuid: 7c8c0f71-3cb0-4bdb-837f-b7727e7daf18
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private_group
+    - node.type.event
+  module:
+    - gnode
+    - node
+id: private_group-group_node-event
+group_type: private_group
+content_plugin: 'group_node:event'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

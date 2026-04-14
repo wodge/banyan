@@ -1,0 +1,22 @@
+uuid: 8e32201c-0292-4cf0-8884-01548e71de40
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+  module:
+    - metatag
+_core:
+  default_config_hash: EJFMYU3d9a1fHbgpeDzh8mDDuZ8ipKhVEdHO_MvVTyE
+id: media.d_image.metatag
+field_name: metatag
+entity_type: media
+bundle: d_image
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

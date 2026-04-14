@@ -1,0 +1,22 @@
+uuid: c7579be7-1e63-43b9-ad5d-b1d9985fc7b5
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: HcTD8MjsB03R1-onlFoh8L1M3TS6VyCql4vVDVS_0G0
+id: banyan_theme_languageswitcher_2
+theme: banyan_theme
+region: header_branding
+weight: -11
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

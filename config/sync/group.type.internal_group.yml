@@ -1,0 +1,12 @@
+uuid: cd8339b4-1769-48f9-b209-32bd6cf3b158
+langcode: en
+status: true
+dependencies: {  }
+id: internal_group
+label: 'Internal Group'
+description: 'Groups for internal organisation activity'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - internal_group-admin

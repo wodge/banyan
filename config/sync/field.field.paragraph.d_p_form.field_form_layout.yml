@@ -1,0 +1,25 @@
+uuid: ac9b1ebb-e330-4bdb-9132-98889bc1b528
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_form_layout
+    - paragraphs.paragraphs_type.d_p_form
+  module:
+    - options
+_core:
+  default_config_hash: dixGZe7ilkxi9NoeYIdTU32D2SY8KGdAh0ovBu5Niv4
+id: paragraph.d_p_form.field_form_layout
+field_name: field_form_layout
+entity_type: paragraph
+bundle: d_p_form
+label: 'Form layout'
+description: 'Choose form layout'
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

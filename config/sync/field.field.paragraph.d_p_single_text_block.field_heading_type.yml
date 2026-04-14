@@ -1,0 +1,25 @@
+uuid: 42f28cac-20c5-4263-93f3-6c6c0ab68b1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_type
+    - paragraphs.paragraphs_type.d_p_single_text_block
+  module:
+    - options
+_core:
+  default_config_hash: S9Aq-pvwx23zdISp-imhktIJfj8ML8FWHk2OMHy0YXo
+id: paragraph.d_p_single_text_block.field_heading_type
+field_name: field_heading_type
+entity_type: paragraph
+bundle: d_p_single_text_block
+label: 'Heading type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

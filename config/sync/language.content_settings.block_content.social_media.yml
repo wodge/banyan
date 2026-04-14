@@ -1,0 +1,20 @@
+uuid: e29e34b0-d259-472f-9fe3-71741037eceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: r3aln6KDMfUWo1QgZhfsvdQ9eseYcACQYyJJ1r4M8ec
+id: block_content.social_media
+target_entity_type_id: block_content
+target_bundle: social_media
+default_langcode: site_default
+language_alterable: true

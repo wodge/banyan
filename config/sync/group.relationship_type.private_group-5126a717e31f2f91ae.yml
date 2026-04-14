@@ -1,0 +1,17 @@
+uuid: 9e3cb7ee-15a9-4061-85ac-810a8c222653
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private_group
+    - node.type.discussion
+  module:
+    - gnode
+    - node
+id: private_group-5126a717e31f2f91ae
+group_type: private_group
+content_plugin: 'group_node:discussion'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

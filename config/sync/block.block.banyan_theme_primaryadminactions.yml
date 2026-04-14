@@ -1,0 +1,20 @@
+uuid: 22090d96-1b1d-42a0-b496-5f28c02c1750
+langcode: en
+status: true
+dependencies:
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: rAUMZa83DFp4_HJCXF1XcvszU9sAZjAyTNVesiYQLQg
+id: banyan_theme_primaryadminactions
+theme: banyan_theme
+region: admin_tabs
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

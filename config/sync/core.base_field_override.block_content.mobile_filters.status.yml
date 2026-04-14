@@ -1,0 +1,24 @@
+uuid: 304a9dd8-2a81-4f22-aa70-a2e98d2362dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters
+_core:
+  default_config_hash: 3wFDdGwKc33PjMpX8co-QkTXqsCKcXHEv5VK4Cb2yv0
+id: block_content.mobile_filters.status
+field_name: status
+entity_type: block_content
+bundle: mobile_filters
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

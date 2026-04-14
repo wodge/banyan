@@ -1,0 +1,31 @@
+uuid: fcc340cb-04a2-4970-83c0-a33e22fed6ee
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.products_list
+  module:
+    - system
+    - views
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: hxWE--HD57uf2kdkvrejJl9eDMdp_YbF61b4r3f4O9U
+id: banyan_theme_exposed_form_products_list_products_list
+theme: banyan_theme
+region: header_branding
+weight: -12
+provider: null
+plugin: 'views_exposed_filter_block:products_list-products_list'
+settings:
+  id: 'views_exposed_filter_block:products_list-products_list'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /products

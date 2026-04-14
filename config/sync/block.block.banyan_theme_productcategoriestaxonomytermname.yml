@@ -1,0 +1,31 @@
+uuid: c1de49f8-8285-4781-b45e-0ef2c54ecc8c
+langcode: en
+status: false
+dependencies:
+  config:
+    - facets.facet.product_categories_taxonomy_term_name_block
+  module:
+    - facets
+    - system
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: aZfSCsXKrv9jfHpI9sOyDF6iTaRKmIMW2X_8R26Qnz8
+id: banyan_theme_productcategoriestaxonomytermname
+theme: banyan_theme
+region: header_branding
+weight: -10
+provider: null
+plugin: 'facet_block:product_categories_taxonomy_term_name_block'
+settings:
+  id: 'facet_block:product_categories_taxonomy_term_name_block'
+  label: Categories
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: droopler_theme_productcategoriestaxonomytermname
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products

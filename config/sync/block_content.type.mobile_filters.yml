@@ -1,0 +1,10 @@
+uuid: 3d992c16-042d-47e3-93fc-85dc0a739707
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G3jhCWhj0LRr1F4SvwnaQd-4zYoqu3pDoz6H4IVB804
+id: mobile_filters
+label: 'Mobile Filters'
+revision: false
+description: null

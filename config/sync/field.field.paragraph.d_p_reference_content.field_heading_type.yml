@@ -1,0 +1,25 @@
+uuid: af731fb6-3ca8-49a3-8277-fc23de1fb4a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_type
+    - paragraphs.paragraphs_type.d_p_reference_content
+  module:
+    - options
+_core:
+  default_config_hash: QyMVK7RUmn_enlLjGSoi75UdUrEZi6whTlZR7cR5rhk
+id: paragraph.d_p_reference_content.field_heading_type
+field_name: field_heading_type
+entity_type: paragraph
+bundle: d_p_reference_content
+label: 'Heading type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

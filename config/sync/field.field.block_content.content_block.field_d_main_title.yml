@@ -1,0 +1,21 @@
+uuid: ae9c3ddf-f7bc-49e9-ac5e-8556a64c7e39
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+    - field.storage.block_content.field_d_main_title
+_core:
+  default_config_hash: k7M6aVzaEPwXBvYv_4kEO94v63vfkQNFmzyJLDgdM74
+id: block_content.content_block.field_d_main_title
+field_name: field_d_main_title
+entity_type: block_content
+bundle: content_block
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

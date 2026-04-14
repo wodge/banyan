@@ -1,0 +1,15 @@
+uuid: 126a943b-4e5e-42b9-b007-074b3e547c1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+    - user.role.administrator
+id: internal_group-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: internal_group
+permissions: {  }

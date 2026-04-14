@@ -1,0 +1,23 @@
+uuid: af17aefc-9525-4bc0-a837-41e80685c1f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_full_width
+    - paragraphs.paragraphs_type.d_p_block
+_core:
+  default_config_hash: WaVxUjZsrWALDk7IzF8-5YnkmueVRpYJgnG7T4nv9VU
+id: paragraph.d_p_block.field_full_width
+field_name: field_full_width
+entity_type: paragraph
+bundle: d_p_block
+label: 'Full width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: 98ec8634-17dc-4944-b548-7369dad6d2ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_count_tablet
+    - paragraphs.paragraphs_type.d_p_text_paged
+  module:
+    - options
+_core:
+  default_config_hash: kQx6EwhmMycpekvOVBFL68PWza937m4rC2uu6A0sLF8
+id: paragraph.d_p_text_paged.field_column_count_tablet
+field_name: field_column_count_tablet
+entity_type: paragraph
+bundle: d_p_text_paged
+label: 'Column count (tablet)'
+description: 'Select the number of items in one row.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 12
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

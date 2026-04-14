@@ -1,0 +1,22 @@
+uuid: 9f6b95ab-7172-460e-922a-f31b5fbbe840
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+  module:
+    - metatag
+_core:
+  default_config_hash: RMoZst5IcPRkOGSanIHtuZnXSAiBIj8ZSwaQgcMeOrM
+id: taxonomy_term.d_product_categories.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

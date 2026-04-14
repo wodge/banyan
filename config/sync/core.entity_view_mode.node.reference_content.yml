@@ -1,0 +1,13 @@
+uuid: 4b4a3f82-5448-492e-80c4-1e0fbc9eb09f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bkDJa0X8b4-EOZa85fuInAFujKjqwenhuszW-GYPAJU
+id: node.reference_content
+label: 'Reference Content'
+description: ''
+targetEntityType: node
+cache: true

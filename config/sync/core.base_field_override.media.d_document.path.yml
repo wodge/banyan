@@ -1,0 +1,22 @@
+uuid: 2232dbcc-22ac-4098-bec7-730fd26301dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+  module:
+    - path
+_core:
+  default_config_hash: Kbz-ISYZjRoo_MgFgB1Q0uToD7gLpAsnR0CeVyw2c2A
+id: media.d_document.path
+field_name: path
+entity_type: media
+bundle: d_document
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,33 @@
+uuid: 3ca86bd1-0254-48db-9ad0-9c5593a5b9dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_p_reference_content
+    - node.type.blog_post
+    - node.type.d_product
+    - paragraphs.paragraphs_type.d_p_reference_content
+_core:
+  default_config_hash: IGSK8iefpQMCXLuAQPS6gcqlN7VvQRTgNVR1cnM0Aj4
+id: paragraph.d_p_reference_content.field_d_p_reference_content
+field_name: field_d_p_reference_content
+entity_type: paragraph
+bundle: d_p_reference_content
+label: 'Reference content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      blog_post: blog_post
+      d_product: d_product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: blog_post
+field_type: entity_reference

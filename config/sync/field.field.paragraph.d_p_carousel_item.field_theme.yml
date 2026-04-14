@@ -1,0 +1,25 @@
+uuid: f4de8ef3-d2f1-4250-bdb7-70a2527284cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme
+    - paragraphs.paragraphs_type.d_p_carousel_item
+  module:
+    - options
+_core:
+  default_config_hash: GBqnctaF-ttAVWe9jaOvYzgwi73QRLyDytT4_eViryo
+id: paragraph.d_p_carousel_item.field_theme
+field_name: field_theme
+entity_type: paragraph
+bundle: d_p_carousel_item
+label: Theme
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: theme-light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

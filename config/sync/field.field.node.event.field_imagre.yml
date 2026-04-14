@@ -1,0 +1,33 @@
+uuid: cd5b82ba-2b55-468e-990d-6cddbf04d586
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagre
+    - media.type.d_document
+    - media.type.d_image
+    - media.type.d_video
+    - node.type.event
+id: node.event.field_imagre
+field_name: field_imagre
+entity_type: node
+bundle: event
+label: Media
+description: 'Image, File or Video'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      d_document: d_document
+      d_image: d_image
+      d_video: d_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: d_document
+field_type: entity_reference

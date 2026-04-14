@@ -1,0 +1,25 @@
+uuid: e08c451d-5751-4694-93e9-abdce95160f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_padding_top
+    - paragraphs.paragraphs_type.d_p_text_paged
+  module:
+    - options
+_core:
+  default_config_hash: jcxZABIX-K_G8igEzC4nSTvohZkfNF3pVNsAlsRQsKE
+id: paragraph.d_p_text_paged.field_padding_top
+field_name: field_padding_top
+entity_type: paragraph
+bundle: d_p_text_paged
+label: 'Padding Top'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: padding_top_none
+default_value_callback: ''
+settings: {  }
+field_type: list_string

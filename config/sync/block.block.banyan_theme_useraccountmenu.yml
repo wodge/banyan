@@ -1,0 +1,25 @@
+uuid: 7d5c04f7-6ab5-4b91-8768-7a68f0345e59
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - banyan_theme
+id: banyan_theme_useraccountmenu
+theme: banyan_theme
+region: header_branding
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

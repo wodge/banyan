@@ -1,0 +1,33 @@
+uuid: ab667fd6-8c64-46b2-bd6e-1b1ffc05d440
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_media_image
+    - media.type.d_image
+    - media.type.d_video
+    - paragraphs.paragraphs_type.d_p_gallery
+_core:
+  default_config_hash: 0k1YzJTup9Gh8wmYKe8IwnRYh4AMX3V0mxTkR3pN9Ds
+id: paragraph.d_p_gallery.field_d_media_image
+field_name: field_d_media_image
+entity_type: paragraph
+bundle: d_p_gallery
+label: image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      d_image: d_image
+      d_video: d_video
+    sort:
+      field: revision_created
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: d_image
+field_type: entity_reference

@@ -1,0 +1,15 @@
+uuid: 7aa64769-23a2-4f86-973f-4d4db8ab4cc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+    - user.role.administrator
+id: public_group-admin_in
+label: Administrator
+weight: 102
+admin: true
+scope: insider
+global_role: administrator
+group_type: public_group
+permissions: {  }

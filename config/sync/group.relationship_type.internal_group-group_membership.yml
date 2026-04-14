@@ -1,0 +1,15 @@
+uuid: 0f732475-f64d-4872-9198-b9735bb73a80
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+  module:
+    - user
+id: internal_group-group_membership
+group_type: internal_group
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

@@ -1,0 +1,19 @@
+uuid: 25afaa5d-e0b6-46b0-8090-e3b943902280
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: eZg7udMr17c7tLpgfRr0hcsghnnYAEC3-IfeQJ2WMX0
+name: Product
+type: d_product
+description: null
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

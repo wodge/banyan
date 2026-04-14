@@ -1,0 +1,22 @@
+uuid: 0d020aa2-239c-4cff-bf18-6118b83ba1b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+  module:
+    - path
+_core:
+  default_config_hash: DopUBmA5E65uJkGqWT9PfVnAgqau-6wzqfNkEbR8qhM
+id: media.d_video.path
+field_name: path
+entity_type: media
+bundle: d_video
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

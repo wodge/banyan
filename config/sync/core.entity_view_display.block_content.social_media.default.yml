@@ -1,0 +1,16 @@
+uuid: 88e8cc2c-bd4e-43cd-9c2f-9be99ff25144
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+_core:
+  default_config_hash: CUOT7HhjxVWEAS5IRcibWcLa31eKIo9if7lpXqAkJN0
+id: block_content.social_media.default
+targetEntityType: block_content
+bundle: social_media
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

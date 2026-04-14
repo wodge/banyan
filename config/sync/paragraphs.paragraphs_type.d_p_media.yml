@@ -1,0 +1,12 @@
+uuid: 12b4d165-a177-48b9-bd1d-0d9472a67bee
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-5SwtrVfW7tgkzNnPmFaK9LXHCN0Aej5A7U9UdMg3Ws'
+id: d_p_media
+label: Media
+icon_uuid: null
+icon_default: null
+description: 'Allows embedding of one Media Library item'
+behavior_plugins: {  }

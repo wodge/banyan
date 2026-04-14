@@ -1,0 +1,20 @@
+uuid: 8dcff950-c159-4d71-83aa-a3f48d3e3d7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters_submit
+_core:
+  default_config_hash: '-kuziSTV7M9h6oEU4WRkdbXG8XlU3k7TS6sco8jzepc'
+id: block_content.mobile_filters_submit.changed
+field_name: changed
+entity_type: block_content
+bundle: mobile_filters_submit
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

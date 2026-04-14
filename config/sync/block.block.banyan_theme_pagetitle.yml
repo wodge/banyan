@@ -1,0 +1,20 @@
+uuid: bd6b5760-659f-4597-bbe7-87db0e115602
+langcode: en
+status: false
+dependencies:
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: '-xq5AkC1f6l3Kj9WK6sWuWX-fxNL2v89enXS-NOs4Ug'
+id: banyan_theme_pagetitle
+theme: banyan_theme
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: c71c7b8c-b448-4653-9fd3-d7a35ec048c0
+langcode: en
+status: true
+dependencies: {  }
+name: Discussion
+type: discussion
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

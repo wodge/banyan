@@ -1,0 +1,23 @@
+uuid: 5411892a-2874-4162-b69e-0f3accfcdd13
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - filter
+    - node
+    - roleassign
+id: site_manager
+label: 'Site Manager'
+weight: 4
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer nodes'
+  - 'administer users'
+  - 'assign roles'
+  - 'use text format full_html'
+  - 'view user email addresses'

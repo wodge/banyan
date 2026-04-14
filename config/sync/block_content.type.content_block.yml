@@ -1,0 +1,10 @@
+uuid: 8a33c134-044a-48a0-a26f-499e6e3c102d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TsMZxiHVz-5wnFHgU4NHe6sfht27H9OxXGbf-EIeTJA
+id: content_block
+label: 'Content block'
+revision: 0
+description: 'Content block'

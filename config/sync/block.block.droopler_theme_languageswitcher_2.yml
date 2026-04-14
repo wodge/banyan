@@ -1,0 +1,22 @@
+uuid: cb8b2b09-a302-43ca-9a96-a7b7b4aa606d
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: HcTD8MjsB03R1-onlFoh8L1M3TS6VyCql4vVDVS_0G0
+id: droopler_theme_languageswitcher_2
+theme: droopler_theme
+region: header_secondary
+weight: -11
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

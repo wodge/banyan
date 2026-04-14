@@ -1,0 +1,16 @@
+uuid: 79428de5-d9ea-4d99-9c61-953d342628aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.search_page_link
+_core:
+  default_config_hash: 7J797crTyUdPchfMYAU2_rA7jqgXyNOa3PIkIo96f0s
+id: block_content.search_page_link.default
+targetEntityType: block_content
+bundle: search_page_link
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

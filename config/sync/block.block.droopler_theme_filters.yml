@@ -1,0 +1,27 @@
+uuid: 6b2708d4-a26b-4a22-a98c-4129ac8a4f47
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: ug1yCqTawlYJaMivs3HXHytQmxKOyA80yiym5bquC2c
+id: droopler_theme_filters
+theme: droopler_theme
+region: aside
+weight: -11
+provider: null
+plugin: 'block_content:4a7cdf0b-da1f-4140-8c7e-0db12502639a'
+settings:
+  id: 'block_content:4a7cdf0b-da1f-4140-8c7e-0db12502639a'
+  label: Filters
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products

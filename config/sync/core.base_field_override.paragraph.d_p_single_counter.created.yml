@@ -1,0 +1,20 @@
+uuid: 9bb2d49e-3d18-4fb7-a53d-c1caabd26b25
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_single_counter
+_core:
+  default_config_hash: QXxII47CRxfaOA1vsOEBMXgMZOddmEznALEdag0X8hs
+id: paragraph.d_p_single_counter.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_single_counter
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

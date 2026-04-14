@@ -1,0 +1,25 @@
+uuid: 452f28a2-d6aa-445f-a73e-9ca77ab4e255
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_count_tablet
+    - paragraphs.paragraphs_type.d_p_carousel
+  module:
+    - options
+_core:
+  default_config_hash: 2rzVz8BIMVSJp9p0oGi9hDJ6O7tRynFulxZgliT4vu8
+id: paragraph.d_p_carousel.field_column_count_tablet
+field_name: field_column_count_tablet
+entity_type: paragraph
+bundle: d_p_carousel
+label: 'Column count (tablet)'
+description: 'Select the number of items in one row.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 3
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

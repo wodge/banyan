@@ -1,0 +1,10 @@
+uuid: d410afa3-459c-4342-830e-1e9a86d2aa64
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PbsUHr4cBcTV7bb_t841lYD4pSEPYEooLu4AlKv_7UM
+id: bottom-footer-menu
+label: 'Bottom footer menu'
+description: 'Menu placed after footer'
+locked: false

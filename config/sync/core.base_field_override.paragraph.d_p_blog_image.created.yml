@@ -1,0 +1,20 @@
+uuid: 12df07d4-4558-4844-9e40-3797c6e3dbba
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_blog_image
+_core:
+  default_config_hash: 8ijqnGU_dho4LHaQld8cuE-5PGcEvdmJpT0HytDWbKo
+id: paragraph.d_p_blog_image.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_blog_image
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

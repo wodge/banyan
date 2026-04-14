@@ -1,0 +1,13 @@
+uuid: 0563120c-2a85-4a9d-b081-8b47a633e141
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: GT9uLiUUlYSGwyNT5HPDSem-OsLMcM1_tFZq--b7sdg
+id: media.d_product_gallery_navigation_item
+label: 'Product gallery navigation item'
+description: ''
+targetEntityType: media
+cache: true

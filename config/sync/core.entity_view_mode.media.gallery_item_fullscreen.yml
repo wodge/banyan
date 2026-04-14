@@ -1,0 +1,13 @@
+uuid: c0d109b8-eb91-474d-869e-17042a878356
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: yHZtWP1U7pgqXHwP8JZoMVQrZdWIFmvTbVejIvMKXGw
+id: media.gallery_item_fullscreen
+label: 'Gallery item fullscreen'
+description: ''
+targetEntityType: media
+cache: true

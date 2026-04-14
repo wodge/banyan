@@ -1,0 +1,21 @@
+uuid: d1aec2ef-70d7-4ab4-9f48-42073201e35f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_featured_images
+    - paragraphs.paragraphs_type.d_p_tiles
+_core:
+  default_config_hash: TUfQEd30KOrb02sRPXvrr8jMurUuP6iuo8isc_RFr6c
+id: paragraph.d_p_tiles.field_featured_images
+field_name: field_featured_images
+entity_type: paragraph
+bundle: d_p_tiles
+label: 'Featured images'
+description: 'Comma separated image numbers. Example: 1,4,7'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

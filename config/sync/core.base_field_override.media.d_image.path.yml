@@ -1,0 +1,22 @@
+uuid: 24f821ee-fd78-43ea-be1d-947f10420318
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+  module:
+    - path
+_core:
+  default_config_hash: FLAqBDN6FfF532yCIes47hsYlHrfmIv1_HQf6QT8Qwk
+id: media.d_image.path
+field_name: path
+entity_type: media
+bundle: d_image
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

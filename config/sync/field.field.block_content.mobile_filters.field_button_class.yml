@@ -1,0 +1,23 @@
+uuid: 0ac422d7-77a9-4b18-847b-578bec65e8fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters
+    - field.storage.block_content.field_button_class
+_core:
+  default_config_hash: onSCVuU4ijX6f9uCpP0mHEmW2i4wXBZasaC46vBjns4
+id: block_content.mobile_filters.field_button_class
+field_name: field_button_class
+entity_type: block_content
+bundle: mobile_filters
+label: 'Button class'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'btn btn-outline-primary'
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: d92eb904-145c-45db-a88f-af5cd789de4b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: usXh9SpGHoK4hL4MnsXR3ou0-W98lxLBvWzn2bd-kBs
+id: reset_button
+label: 'Reset Filters'
+revision: false
+description: null

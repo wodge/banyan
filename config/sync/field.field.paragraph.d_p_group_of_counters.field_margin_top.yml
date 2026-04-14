@@ -1,0 +1,25 @@
+uuid: 509926df-c6c0-4a61-9965-9189bf91bde7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_margin_top
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+  module:
+    - options
+_core:
+  default_config_hash: J7pKnMEHj2DTz7gj583tDyykV8JA7amypr3q3ghTIXc
+id: paragraph.d_p_group_of_counters.field_margin_top
+field_name: field_margin_top
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: 'Margin top'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: margin_top_none
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: be911f4d-601b-41a9-97ec-f89ac920d8c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+  module:
+    - metatag
+_core:
+  default_config_hash: bODwxk3-U0usnj8lK08PMO8MkDA9rb2-hq2PqZmWjuI
+id: block_content.d_paragraph_block.metatag
+field_name: metatag
+entity_type: block_content
+bundle: d_paragraph_block
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

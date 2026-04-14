@@ -1,0 +1,27 @@
+uuid: 0bbd122f-13cf-4390-8cea-3408663a8d10
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+    - user.role.authenticated
+id: public_group-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: authenticated
+group_type: public_group
+permissions:
+  - 'create discussion group_node entity'
+  - 'delete own discussion group_node entity'
+  - 'edit own discussion group_node entity'
+  - 'edit own group membership'
+  - 'leave group'
+  - 'view discussion group_node entity'
+  - 'view document group_node entity'
+  - 'view event group_node entity'
+  - 'view group'
+  - 'view group invitations'
+  - 'view group members'
+  - 'view news group_node entity'

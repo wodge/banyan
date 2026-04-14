@@ -1,0 +1,35 @@
+uuid: 54bbdd93-e599-4b8e-9c7f-79e942db1efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.d_tiles_gallery_fullscreen
+    - field.field.media.d_video.field_media_oembed_video
+    - media.type.d_video
+  module:
+    - media
+_core:
+  default_config_hash: loYDW3CN5D_Lg4nJKKMUW4AIpH_MRyZdMnEKmikSJbk
+id: media.d_video.d_tiles_gallery_fullscreen
+targetEntityType: media
+bundle: d_video
+mode: d_tiles_gallery_fullscreen
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: hidden
+    settings:
+      max_width: 0
+      max_height: 0
+      loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

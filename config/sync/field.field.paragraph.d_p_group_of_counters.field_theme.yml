@@ -1,0 +1,25 @@
+uuid: 684b6abb-cf6f-47e1-ac74-61b533a8b1e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+  module:
+    - options
+_core:
+  default_config_hash: 73-87fuftsMeC7k2ZzJ0ap6bKFTvlE5ADZv9koKs2aA
+id: paragraph.d_p_group_of_counters.field_theme
+field_name: field_theme
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: Theme
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: theme-light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

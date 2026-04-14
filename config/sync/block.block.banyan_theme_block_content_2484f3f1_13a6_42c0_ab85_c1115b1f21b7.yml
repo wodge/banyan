@@ -1,0 +1,25 @@
+uuid: 29b9d8a8-1323-48ca-af47-23b2afb2dbe9
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:d_paragraph_block:2484f3f1-13a6-42c0-ab85-c1115b1f21b7'
+  module:
+    - block_content
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: GFVWNMzzn4Dpx_WrYDpmZuG1MmNcJpGOZdX7QWXg540
+id: banyan_theme_block_content_2484f3f1_13a6_42c0_ab85_c1115b1f21b7
+theme: banyan_theme
+region: header_branding
+weight: -14
+provider: null
+plugin: 'block_content:2484f3f1-13a6-42c0-ab85-c1115b1f21b7'
+settings:
+  id: 'block_content:2484f3f1-13a6-42c0-ab85-c1115b1f21b7'
+  label: ''
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

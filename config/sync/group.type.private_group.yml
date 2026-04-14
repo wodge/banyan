@@ -1,0 +1,12 @@
+uuid: c86ec84c-1d1d-4910-bb13-c6f7ec334d75
+langcode: en
+status: true
+dependencies: {  }
+id: private_group
+label: 'Private Group'
+description: 'Groups with visible content'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - private_group-admin

@@ -1,0 +1,20 @@
+uuid: e80d0f7e-9a81-4d2d-b845-eb954454ebf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_tiles
+_core:
+  default_config_hash: 2igGuNQ2hMJejsaREOyDCVnuU6rpQ3w71IzeejTL9jQ
+id: paragraph.d_p_tiles.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_tiles
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,24 @@
+uuid: fedffcb3-d3bc-461f-900a-9cda2f89ac1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_carousel_item
+_core:
+  default_config_hash: jnEwHsOQi918xy6vnvSSDPmyrcv98BYB7IpeLsZIs6Y
+id: paragraph.d_p_carousel_item.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_carousel_item
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

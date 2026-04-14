@@ -1,0 +1,31 @@
+uuid: 60476466-0402-4338-9d62-4b25414a54f4
+langcode: en
+status: false
+dependencies:
+  config:
+    - facets.facet.tags_taxonomy_term_name_block
+  module:
+    - facets
+    - system
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: THXqm_21S-OzzXu1cVV9dHpO2AKpvlr7K0lzjvZIJZY
+id: banyan_theme_tagstaxonomytermname
+theme: banyan_theme
+region: header_branding
+weight: -9
+provider: null
+plugin: 'facet_block:tags_taxonomy_term_name_block'
+settings:
+  id: 'facet_block:tags_taxonomy_term_name_block'
+  label: Tags
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: droopler_theme_tagstaxonomytermname
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products

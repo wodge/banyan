@@ -1,0 +1,25 @@
+uuid: bbbdab3e-62cb-4e88-aad2-11941687583c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_type
+    - paragraphs.paragraphs_type.d_p_carousel
+  module:
+    - options
+_core:
+  default_config_hash: 2wTS_h7-T1k4VG3YovLFB9X-l2waFS0pYJkiOVLBnBg
+id: paragraph.d_p_carousel.field_heading_type
+field_name: field_heading_type
+entity_type: paragraph
+bundle: d_p_carousel
+label: 'Heading type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,13 @@
+uuid: a3990078-faaa-4494-955e-898999e9711b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: O6I2RO5eOB34qrHu9nImvnUOIzUudX7qvscxan4tUwo
+id: media.d_product_gallery
+label: 'Product gallery'
+description: ''
+targetEntityType: media
+cache: true

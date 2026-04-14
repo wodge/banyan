@@ -1,0 +1,25 @@
+uuid: 759110ad-39ba-4af4-b775-bf56507a466c
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:content_block:ae81c54c-c9a2-4d28-9087-34a1fcde4912'
+  module:
+    - block_content
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: ebPdxODc6kXPkVxATf9orrwvhYPdfYk2xkKHjV0NHNs
+id: banyan_theme_block_content_ae81c54c_c9a2_4d28_9087_34a1fcde4912
+theme: banyan_theme
+region: header_branding
+weight: 1
+provider: null
+plugin: 'block_content:ae81c54c-c9a2-4d28-9087-34a1fcde4912'
+settings:
+  id: 'block_content:ae81c54c-c9a2-4d28-9087-34a1fcde4912'
+  label: 'Footer Office 2'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

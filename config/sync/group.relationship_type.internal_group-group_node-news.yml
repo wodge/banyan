@@ -1,0 +1,17 @@
+uuid: 29a1df09-fcc5-4de8-a5ea-faef2b47377e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+    - node.type.news
+  module:
+    - gnode
+    - node
+id: internal_group-group_node-news
+group_type: internal_group
+content_plugin: 'group_node:news'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

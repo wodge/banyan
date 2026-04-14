@@ -1,0 +1,22 @@
+uuid: f0e17b66-c09f-430e-8224-94ee720a56be
+langcode: en
+status: true
+dependencies:
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: CXU0L3eaz5idecXqWt-euXS_yLvOwnncaxw2EMhKwqk
+id: banyan_theme_tabs
+theme: banyan_theme
+region: admin_tabs
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

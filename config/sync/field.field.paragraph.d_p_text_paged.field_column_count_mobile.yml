@@ -1,0 +1,25 @@
+uuid: 545687eb-e09e-4455-9d5c-58ec83d6f615
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_count_mobile
+    - paragraphs.paragraphs_type.d_p_text_paged
+  module:
+    - options
+_core:
+  default_config_hash: uekMEkBy7GYveLjEs1ZqW3OcD9Of2USpUuDD0moBlpY
+id: paragraph.d_p_text_paged.field_column_count_mobile
+field_name: field_column_count_mobile
+entity_type: paragraph
+bundle: d_p_text_paged
+label: 'Column count (mobile)'
+description: 'Select the number of items in one row.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 12
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

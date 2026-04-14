@@ -1,0 +1,27 @@
+uuid: b24e7f0d-bc29-4e20-945f-84f45df41688
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_theme_custom
+    - paragraphs.paragraphs_type.d_p_banner
+  module:
+    - color_field
+_core:
+  default_config_hash: 1JfWoFTYcyQI7a1aJKffPcK9KL7IjbQfC91o_dbp1Wk
+id: paragraph.d_p_banner.field_text_theme_custom
+field_name: field_text_theme_custom
+entity_type: paragraph
+bundle: d_p_banner
+label: 'Text color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#000000'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

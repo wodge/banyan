@@ -1,0 +1,30 @@
+uuid: d788aa2a-f0b8-490a-a267-d210c96facca
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:reset_button:4a7cdf0b-da1f-4140-8c7e-0db12502639a'
+  module:
+    - block_content
+    - system
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: ug1yCqTawlYJaMivs3HXHytQmxKOyA80yiym5bquC2c
+id: banyan_theme_filters
+theme: banyan_theme
+region: header_branding
+weight: -11
+provider: null
+plugin: 'block_content:4a7cdf0b-da1f-4140-8c7e-0db12502639a'
+settings:
+  id: 'block_content:4a7cdf0b-da1f-4140-8c7e-0db12502639a'
+  label: Filters
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products

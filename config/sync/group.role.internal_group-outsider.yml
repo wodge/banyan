@@ -1,0 +1,15 @@
+uuid: aa288230-b174-4dab-89d0-2ad15861631b
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+    - user.role.authenticated
+id: internal_group-outsider
+label: Outsider
+weight: -101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: internal_group
+permissions: {  }

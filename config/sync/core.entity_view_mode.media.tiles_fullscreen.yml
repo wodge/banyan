@@ -1,0 +1,13 @@
+uuid: 3d2de229-39fe-4e6a-a758-154a1b0eac6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: XRe6eO2MuJ_iejtzp7NQRRWtopZ5z19zUhLYTSrAcbk
+id: media.tiles_fullscreen
+label: 'Tiles fullscreen'
+description: ''
+targetEntityType: media
+cache: true

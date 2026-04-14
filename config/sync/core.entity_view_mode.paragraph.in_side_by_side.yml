@@ -1,0 +1,13 @@
+uuid: 9ac89426-a899-4d80-8736-46d32f5fc7d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: KE39s_FfRxkrp52vp2Szc7xssWzNQyOQvywZC7xD0sI
+id: paragraph.in_side_by_side
+label: 'In side by side'
+description: ''
+targetEntityType: paragraph
+cache: true

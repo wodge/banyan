@@ -1,0 +1,17 @@
+uuid: 884f09f4-f3ec-49f5-a44d-d0d552015b01
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QCbFGep6nX2i1_E_pBhxNGADWc7ZYVseYg3UVAaU1d4
+name: reference_content_teaser
+label: 'Reference Content teaser'
+effects:
+  7ad81d98-578e-40d2-aacb-1f704dc1058b:
+    uuid: 7ad81d98-578e-40d2-aacb-1f704dc1058b
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 800
+      height: 600
+      anchor: center-center

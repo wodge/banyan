@@ -1,0 +1,25 @@
+uuid: 87e2feeb-3142-45a3-b7c7-f157891c1622
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:search_page_link:44ab5ae1-6b1f-46af-9a38-8b6adcc663b6'
+  module:
+    - block_content
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: M8mzY9tAyeZJrDa2shk3HFOIpPkqS35pqm6EyaGJIDM
+id: banyan_theme_searchpagelink
+theme: banyan_theme
+region: header_branding
+weight: -12
+provider: null
+plugin: 'block_content:44ab5ae1-6b1f-46af-9a38-8b6adcc663b6'
+settings:
+  id: 'block_content:44ab5ae1-6b1f-46af-9a38-8b6adcc663b6'
+  label: 'Search page link'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

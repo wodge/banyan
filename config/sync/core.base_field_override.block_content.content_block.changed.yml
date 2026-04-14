@@ -1,0 +1,20 @@
+uuid: f19a0ec5-60d5-4aae-b4f0-45e9cf8b3d86
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+_core:
+  default_config_hash: T4SMaGtyBSphw648g6lyYJ9CvAV2SlDX3FmiRIkfhqM
+id: block_content.content_block.changed
+field_name: changed
+entity_type: block_content
+bundle: content_block
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,24 @@
+uuid: 44511b86-ced3-40be-addb-4bfc4aeeff2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_document
+_core:
+  default_config_hash: sx-6Mf18NEAb1KuuHQn6JxY_yubdEuNtNlD3Rm8jQcU
+id: media.d_document.status
+field_name: status
+entity_type: media
+bundle: d_document
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 83299523-871e-4b11-9b2f-151ca2fec346
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reset_button
+_core:
+  default_config_hash: 1Q3wAXdvI-1yC7wzDdMaxaqx3TxzwTvy8bmg_7qnNWE
+id: block_content.reset_button.info
+field_name: info
+entity_type: block_content
+bundle: reset_button
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 27eff391-bf8b-470c-b070-1835b10b276e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.search_page_link
+  module:
+    - metatag
+_core:
+  default_config_hash: IUauixAjV9Q_sx4Mfv01ikFwp5U0deeDaFshACxrJ0I
+id: block_content.search_page_link.metatag
+field_name: metatag
+entity_type: block_content
+bundle: search_page_link
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

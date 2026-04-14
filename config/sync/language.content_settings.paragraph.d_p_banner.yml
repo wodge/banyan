@@ -1,0 +1,20 @@
+uuid: 8fac0d9f-95f5-471b-8090-af8582f5456f
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_banner
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: S1neRaHcV_UeIgNDe1irBa7DfXTojZEwd6N7xlu5SSc
+id: paragraph.d_p_banner
+target_entity_type_id: paragraph
+target_bundle: d_p_banner
+default_langcode: site_default
+language_alterable: true

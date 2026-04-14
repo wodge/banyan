@@ -1,0 +1,22 @@
+uuid: eddefc0f-a2dc-4426-bd87-9d672217d8fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+_core:
+  default_config_hash: l3Ktu2tXL6LvaCEuMh8fg7Q6msh9BcXR5HrlRZrfF8M
+id: media.d_video.uid
+field_name: uid
+entity_type: media
+bundle: d_video
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

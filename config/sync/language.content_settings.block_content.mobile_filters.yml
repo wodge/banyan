@@ -1,0 +1,20 @@
+uuid: 9bf7c604-507e-46a8-a295-294172ea1aad
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: OThCp0RXGEoWeuhYRmNGRd5U9thGUDYyYDgu1OoBpQU
+id: block_content.mobile_filters
+target_entity_type_id: block_content
+target_bundle: mobile_filters
+default_langcode: site_default
+language_alterable: true

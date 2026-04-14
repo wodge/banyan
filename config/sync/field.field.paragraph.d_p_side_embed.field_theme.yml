@@ -1,0 +1,25 @@
+uuid: e7514ddf-192b-4ff0-a610-982b21221d5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme
+    - paragraphs.paragraphs_type.d_p_side_embed
+  module:
+    - options
+_core:
+  default_config_hash: bIV0jDvpTTlHNoMXXgBwDtaNdnHInW5A1c0u_no6LVY
+id: paragraph.d_p_side_embed.field_theme
+field_name: field_theme
+entity_type: paragraph
+bundle: d_p_side_embed
+label: Theme
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: theme-light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

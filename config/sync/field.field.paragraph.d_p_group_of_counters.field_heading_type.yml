@@ -1,0 +1,25 @@
+uuid: 3ad49aff-572d-47d4-b594-e21da287c293
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_type
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+  module:
+    - options
+_core:
+  default_config_hash: '-2_inB87ghD7ha5y7jFFbIpl_UD0cUwtOqZqoZUj9Ds'
+id: paragraph.d_p_group_of_counters.field_heading_type
+field_name: field_heading_type
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: 'Heading type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

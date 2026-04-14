@@ -1,0 +1,27 @@
+uuid: dac991c3-00f5-49bd-90ca-408eba97a502
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_d_webform
+    - paragraphs.paragraphs_type.d_p_form
+  module:
+    - webform
+_core:
+  default_config_hash: 18F3AqUDVgsntOVUH0gerP7DusPSxa8Rd8Bs3zgMnJ0
+id: paragraph.d_p_form.field_d_webform
+field_name: field_d_webform
+entity_type: paragraph
+bundle: d_p_form
+label: Webform
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

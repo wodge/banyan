@@ -1,0 +1,27 @@
+uuid: 12a98a66-f2e0-40ef-a7b5-a6b766be89ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - banyan_theme
+_core:
+  default_config_hash: ofkZA5A0vSdFzGgcDXFOo7j2FSAk2qnVvNceDbmir8c
+id: banyan_theme_mainnavigation
+theme: banyan_theme
+region: header_primary
+weight: -10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

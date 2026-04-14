@@ -1,0 +1,25 @@
+uuid: 91ecaecb-a2f4-4051-a78f-a469157a50a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme
+    - paragraphs.paragraphs_type.d_p_gallery
+  module:
+    - options
+_core:
+  default_config_hash: V_l0BdGuMR7fNRDY0wZUNyRf-bxXwPZFyeBUTpKfzxA
+id: paragraph.d_p_gallery.field_theme
+field_name: field_theme
+entity_type: paragraph
+bundle: d_p_gallery
+label: Theme
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: theme-light
+default_value_callback: ''
+settings: {  }
+field_type: list_string

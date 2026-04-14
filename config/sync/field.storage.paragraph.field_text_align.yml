@@ -1,0 +1,32 @@
+uuid: 0ed5e99d-13bd-44d0-b94b-14265a8d698f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: x4Ruc3VXQ4Au2T3VFOSLFj51-znfxGT2Q-kHRPJdkVs
+id: paragraph.field_text_align
+field_name: field_text_align
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: start
+      label: Left
+    -
+      value: end
+      label: Right
+    -
+      value: center
+      label: Center
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

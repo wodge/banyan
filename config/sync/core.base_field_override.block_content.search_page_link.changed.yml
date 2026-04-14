@@ -1,0 +1,20 @@
+uuid: 59739e9f-fc44-4b74-8552-a59e9f193fba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.search_page_link
+_core:
+  default_config_hash: mbrHWa0ULica9eJi2zJcVp38rb4pFUDNrfOM-mnNbws
+id: block_content.search_page_link.changed
+field_name: changed
+entity_type: block_content
+bundle: search_page_link
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,22 @@
+uuid: e58a4564-4c01-4328-835d-154bb6b12053
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+  module:
+    - metatag
+_core:
+  default_config_hash: vibEwVYiGtImUg9WL_b2brwE4uLGhJRc5ld2Qgd5j2o
+id: media.d_video.metatag
+field_name: metatag
+entity_type: media
+bundle: d_video
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

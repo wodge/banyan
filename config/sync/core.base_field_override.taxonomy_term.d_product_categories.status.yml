@@ -1,0 +1,24 @@
+uuid: c1830fe0-a921-4dcf-8835-f16c097317de
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+_core:
+  default_config_hash: ba1PgynbmwSe1NhQswEa2c6tRcwgQAfVJ1KFmZI5a3Y
+id: taxonomy_term.d_product_categories.status
+field_name: status
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

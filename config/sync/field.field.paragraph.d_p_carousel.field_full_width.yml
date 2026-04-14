@@ -1,0 +1,23 @@
+uuid: 22cabf85-76aa-4878-b643-ece28140fa86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_full_width
+    - paragraphs.paragraphs_type.d_p_carousel
+_core:
+  default_config_hash: y5OaQHNwI41lxhA81xqAHQbJTuD_gADwG5T47F1CssA
+id: paragraph.d_p_carousel.field_full_width
+field_name: field_full_width
+entity_type: paragraph
+bundle: d_p_carousel
+label: 'Full width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

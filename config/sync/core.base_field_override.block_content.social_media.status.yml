@@ -1,0 +1,24 @@
+uuid: baca5f97-27d1-41ca-8c9e-6f1d827e4e57
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+_core:
+  default_config_hash: XIJZGNX0VnUT_liyu1CzUl-Unka4fPB09gXB8Tv3Dq0
+id: block_content.social_media.status
+field_name: status
+entity_type: block_content
+bundle: social_media
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,27 @@
+uuid: ee5534da-9195-4b6a-b11c-dd99880ce3e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_theme_custom
+    - paragraphs.paragraphs_type.d_p_node
+  module:
+    - color_field
+_core:
+  default_config_hash: otJ58KTdP6lOt7Lc8qcUaVw-b5ua3dcTptIoCkXwSd8
+id: paragraph.d_p_node.field_text_theme_custom
+field_name: field_text_theme_custom
+entity_type: paragraph
+bundle: d_p_node
+label: 'Text color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#000000'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

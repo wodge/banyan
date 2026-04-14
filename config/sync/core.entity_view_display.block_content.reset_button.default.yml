@@ -1,0 +1,24 @@
+uuid: 73b0a02c-e358-4b09-a76a-d6ed2335d0fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reset_button
+    - field.field.block_content.reset_button.field_button_class
+    - field.field.block_content.reset_button.field_button_icon_class
+    - field.field.block_content.reset_button.field_button_target
+    - field.field.block_content.reset_button.field_button_text
+_core:
+  default_config_hash: QCbqc94WkLz3rbzdN_4bBDa3YXyjEyfWh0N_ZH74iAo
+id: block_content.reset_button.default
+targetEntityType: block_content
+bundle: reset_button
+mode: default
+content: {  }
+hidden:
+  field_button_class: true
+  field_button_icon_class: true
+  field_button_target: true
+  field_button_text: true
+  langcode: true
+  search_api_excerpt: true

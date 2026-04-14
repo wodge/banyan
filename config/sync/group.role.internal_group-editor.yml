@@ -1,0 +1,40 @@
+uuid: 59a9cc29-b454-4da3-b8e1-19186ff0f332
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+    - user.role.member
+id: internal_group-editor
+label: 'Group Editor'
+weight: 0
+admin: false
+scope: insider
+global_role: member
+group_type: internal_group
+permissions:
+  - 'create discussion group_node entity'
+  - 'create document group_node entity'
+  - 'create event group_node entity'
+  - 'create news group_node entity'
+  - 'delete own discussion group_node entity'
+  - 'delete own document group_node entity'
+  - 'delete own event group_node entity'
+  - 'delete own news group_node entity'
+  - 'edit any document group_node entity'
+  - 'edit any event group_node entity'
+  - 'edit any news group_node entity'
+  - 'edit own discussion group_node entity'
+  - 'edit own document group_node entity'
+  - 'edit own event group_node entity'
+  - 'edit own group membership'
+  - 'edit own news group_node entity'
+  - 'invite users to group'
+  - 'leave group'
+  - 'view discussion group_node entity'
+  - 'view document group_node entity'
+  - 'view event group_node entity'
+  - 'view group'
+  - 'view group invitations'
+  - 'view group members'
+  - 'view news group_node entity'

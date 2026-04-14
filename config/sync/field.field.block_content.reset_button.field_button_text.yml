@@ -1,0 +1,23 @@
+uuid: a5478051-ae43-4714-8402-89e513dfa264
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reset_button
+    - field.storage.block_content.field_button_text
+_core:
+  default_config_hash: FDkahDh8h-ptOlnahyh_11tGCBKidXU46L_WNAnKnSk
+id: block_content.reset_button.field_button_text
+field_name: field_button_text
+entity_type: block_content
+bundle: reset_button
+label: 'Button text'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Reset Filters'
+default_value_callback: ''
+settings: {  }
+field_type: string

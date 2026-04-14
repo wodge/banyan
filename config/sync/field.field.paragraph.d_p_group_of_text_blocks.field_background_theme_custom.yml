@@ -1,0 +1,27 @@
+uuid: 98543b3f-04d0-4721-a956-0691bbd0d587
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_theme_custom
+    - paragraphs.paragraphs_type.d_p_group_of_text_blocks
+  module:
+    - color_field
+_core:
+  default_config_hash: kFbVGJkfjCRA68WyRbQbUldCshEUF-7W1IvztFiDwUw
+id: paragraph.d_p_group_of_text_blocks.field_background_theme_custom
+field_name: field_background_theme_custom
+entity_type: paragraph
+bundle: d_p_group_of_text_blocks
+label: 'Background color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#ffffff'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

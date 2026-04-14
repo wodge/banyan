@@ -1,0 +1,20 @@
+uuid: 7dfc7b9e-c6f3-4e11-8a6c-9272918e28d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: J1z-w1_w0gIt1oCI15Cw1XcpumANOVuMYUAZ3866Y-8
+id: paragraph.field_add_dividers
+field_name: field_add_dividers
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

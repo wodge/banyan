@@ -1,0 +1,23 @@
+uuid: 36bb3941-ba5d-4ea6-973f-b00057bfa5c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_enable_grid
+    - paragraphs.paragraphs_type.d_p_side_by_side
+_core:
+  default_config_hash: pMqTYUrjM9NcTVICAJNfkaOOItcbkKqUQP8mgdqJCv8
+id: paragraph.d_p_side_by_side.field_enable_grid
+field_name: field_enable_grid
+entity_type: paragraph
+bundle: d_p_side_by_side
+label: 'Enable grid'
+description: 'Adds a thin grid around all boxes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

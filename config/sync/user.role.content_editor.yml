@@ -1,0 +1,36 @@
+uuid: 7f72aa95-7c5c-4795-8bf7-0fbeb55da8b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.content_page
+    - node.type.discussion
+    - node.type.document
+    - node.type.event
+    - node.type.news
+  module:
+    - filter
+    - node
+id: content_editor
+label: 'Content Editor'
+weight: 5
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'create content_page content'
+  - 'create discussion content'
+  - 'create document content'
+  - 'create event content'
+  - 'create news content'
+  - 'delete own content_page content'
+  - 'delete own discussion content'
+  - 'delete own document content'
+  - 'delete own event content'
+  - 'delete own news content'
+  - 'edit any content_page content'
+  - 'edit any discussion content'
+  - 'edit any document content'
+  - 'edit any event content'
+  - 'edit any news content'
+  - 'use text format full_html'

@@ -1,0 +1,20 @@
+uuid: 858fa2c6-99f7-4c84-9290-910ca12f1e15
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_blog_image
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 3ejciJMMrIHtMfF8LykG4MkUnsLVt1TuoANCX7lV9I4
+id: paragraph.d_p_blog_image
+target_entity_type_id: paragraph
+target_bundle: d_p_blog_image
+default_langcode: site_default
+language_alterable: true

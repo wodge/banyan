@@ -1,0 +1,25 @@
+uuid: c9c3eec3-6249-46b6-8fb9-7a4ab89f77b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_embed_side
+    - paragraphs.paragraphs_type.d_p_side_embed
+  module:
+    - options
+_core:
+  default_config_hash: RaJEpDcGLQXVi-GxinBy_qXmfm-6iiJ4X74r9_76KQI
+id: paragraph.d_p_side_embed.field_embed_side
+field_name: field_embed_side
+entity_type: paragraph
+bundle: d_p_side_embed
+label: 'Embed side'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: 336d2908-674c-4ed2-8bb8-2dadafcfc5b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: pfNkw739P32j0MFpv4oRgtPnbjK_CSYhF6z3HaDm2Cc
+id: media.d_image
+target_entity_type_id: media
+target_bundle: d_image
+default_langcode: site_default
+language_alterable: true

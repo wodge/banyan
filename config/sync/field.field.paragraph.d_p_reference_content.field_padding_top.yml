@@ -1,0 +1,25 @@
+uuid: 8a206613-d590-4dc8-a8e4-f651746f3494
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_padding_top
+    - paragraphs.paragraphs_type.d_p_reference_content
+  module:
+    - options
+_core:
+  default_config_hash: 5vWMJimZBvk6z1-QRHjY75gsHHzxTiXpPMzvXz-Z7SM
+id: paragraph.d_p_reference_content.field_padding_top
+field_name: field_padding_top
+entity_type: paragraph
+bundle: d_p_reference_content
+label: 'Padding Top'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: padding_top_medium
+default_value_callback: ''
+settings: {  }
+field_type: list_string

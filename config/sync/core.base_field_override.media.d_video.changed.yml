@@ -1,0 +1,20 @@
+uuid: e98b447d-e6cd-45df-b679-1e389914c680
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+_core:
+  default_config_hash: 0i480Ej349n2ka6i0qM41CP9t0Tp1tghNjw9ms3NGjk
+id: media.d_video.changed
+field_name: changed
+entity_type: media
+bundle: d_video
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,13 @@
+uuid: d57b8e13-b64d-442e-b4a4-2b7c5225b755
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: tTkPos4TGt59g9nho9XFGsOiKkn01k3-WFjgjk0Ph28
+id: media.side_image
+label: 'Side image'
+description: ''
+targetEntityType: media
+cache: true

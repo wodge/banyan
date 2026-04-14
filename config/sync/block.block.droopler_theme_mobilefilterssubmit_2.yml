@@ -1,0 +1,27 @@
+uuid: 54f94d1b-da98-4958-ac6f-d937e48859b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: LUhcScuuyarNYJ3dSBkXOocxNvn9LAkPRaePJrqqPGM
+id: droopler_theme_mobilefilterssubmit_2
+theme: droopler_theme
+region: aside
+weight: -8
+provider: null
+plugin: 'block_content:e3bf79bb-67b2-4220-b652-84242a331e37'
+settings:
+  id: 'block_content:e3bf79bb-67b2-4220-b652-84242a331e37'
+  label: 'Mobile filters submit'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /products

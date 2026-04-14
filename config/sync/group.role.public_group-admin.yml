@@ -1,0 +1,14 @@
+uuid: 9f3f895d-659f-49b8-b412-5ca3e6c6b1e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+id: public_group-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: public_group
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 5f91608b-8d1b-4f8c-bd7b-c620925e36e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private_group
+id: private_group-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: private_group
+permissions: {  }

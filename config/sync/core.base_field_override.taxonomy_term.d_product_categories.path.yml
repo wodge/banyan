@@ -1,0 +1,22 @@
+uuid: 374f3a9b-4098-457a-bd70-3667f466a185
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.d_product_categories
+  module:
+    - path
+_core:
+  default_config_hash: ckc75QJJfjAWMvbgmal1x-sxiCWSSOZI_icLkNAfEa8
+id: taxonomy_term.d_product_categories.path
+field_name: path
+entity_type: taxonomy_term
+bundle: d_product_categories
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

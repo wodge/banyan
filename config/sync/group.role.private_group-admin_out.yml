@@ -1,0 +1,15 @@
+uuid: 8080ba81-e3ec-4d63-a6cb-ca64e95ea391
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.private_group
+    - user.role.administrator
+id: private_group-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: private_group
+permissions: {  }

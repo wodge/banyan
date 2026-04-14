@@ -1,0 +1,18 @@
+uuid: 436dc764-df0b-4a4f-a500-a3e1440becde
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+    - user.role.anonymous
+id: public_group-anonymous
+label: Anonymous
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: public_group
+permissions:
+  - 'view event group_node entity'
+  - 'view group'
+  - 'view news group_node entity'

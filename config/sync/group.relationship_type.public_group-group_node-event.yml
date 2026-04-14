@@ -1,0 +1,17 @@
+uuid: 69667ddc-9823-48db-854d-361d8289eecf
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.public_group
+    - node.type.event
+  module:
+    - gnode
+    - node
+id: public_group-group_node-event
+group_type: public_group
+content_plugin: 'group_node:event'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

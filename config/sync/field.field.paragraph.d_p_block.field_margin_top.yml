@@ -1,0 +1,25 @@
+uuid: 48e7e0f0-8ce6-46e3-83c3-b80e002a42c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_margin_top
+    - paragraphs.paragraphs_type.d_p_block
+  module:
+    - options
+_core:
+  default_config_hash: 1Pxo-_dw7w5AbC3F-T5K-VcDi_WqvaGhTam2SPomDiQ
+id: paragraph.d_p_block.field_margin_top
+field_name: field_margin_top
+entity_type: paragraph
+bundle: d_p_block
+label: 'Margin top'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: margin_top_none
+default_value_callback: ''
+settings: {  }
+field_type: list_string

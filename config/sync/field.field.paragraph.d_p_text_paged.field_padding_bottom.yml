@@ -1,0 +1,25 @@
+uuid: 8cf2bd99-25b3-4048-9a22-18493b22e5d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_padding_bottom
+    - paragraphs.paragraphs_type.d_p_text_paged
+  module:
+    - options
+_core:
+  default_config_hash: D01Z1uA05gVkggV5hzfEAVYyW1PXRphgG9V6gUG1biE
+id: paragraph.d_p_text_paged.field_padding_bottom
+field_name: field_padding_bottom
+entity_type: paragraph
+bundle: d_p_text_paged
+label: 'Padding Bottom'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: padding_bottom_none
+default_value_callback: ''
+settings: {  }
+field_type: list_string

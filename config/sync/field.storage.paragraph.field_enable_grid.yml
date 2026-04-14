@@ -1,0 +1,20 @@
+uuid: 2acecc63-3b80-4fbd-aa88-efc81323078e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: CIIIhv_CBTvoN3K6USAzeien3fLUQWZOQ4lD5kXrrS0
+id: paragraph.field_enable_grid
+field_name: field_enable_grid
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

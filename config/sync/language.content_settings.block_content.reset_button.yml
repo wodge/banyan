@@ -1,0 +1,20 @@
+uuid: 4a269c84-1dc8-441f-9afd-54f75f695a3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reset_button
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: p8u6LeqKk7g5Cr7DxWtCVIpiLcAlgbVqACvUepOpNbI
+id: block_content.reset_button
+target_entity_type_id: block_content
+target_bundle: reset_button
+default_langcode: site_default
+language_alterable: true

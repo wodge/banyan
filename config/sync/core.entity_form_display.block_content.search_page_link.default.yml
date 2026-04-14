@@ -1,0 +1,29 @@
+uuid: 46304318-f199-444c-91b9-9e1a7f44cf85
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.search_page_link
+_core:
+  default_config_hash: TZ4JV-75A7MZxQL6S2N_y0_YqgY7iZqbotp7LlDpOyw
+id: block_content.search_page_link.default
+targetEntityType: block_content
+bundle: search_page_link
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

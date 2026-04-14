@@ -1,0 +1,14 @@
+uuid: bcec3229-0432-467e-9599-2515097565a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.internal_group
+id: internal_group-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: internal_group
+permissions: {  }

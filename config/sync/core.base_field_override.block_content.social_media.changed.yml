@@ -1,0 +1,20 @@
+uuid: a5754750-d23f-4b5d-9570-7df07a9df6b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+_core:
+  default_config_hash: Xtxn57NC1wLIIznASOv5myic2k-BYw6_fmOGKb88cHw
+id: block_content.social_media.changed
+field_name: changed
+entity_type: block_content
+bundle: social_media
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

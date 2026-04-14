@@ -1,0 +1,20 @@
+uuid: 1e0921e1-f84b-41ce-b89d-a7da3ac0e441
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reset_button
+_core:
+  default_config_hash: 8aNqRvEjrqgjycc0mddVIsU5ckzd0g524tG0xcvdgJ8
+id: block_content.reset_button.changed
+field_name: changed
+entity_type: block_content
+bundle: reset_button
+label: Changed
+description: 'The time that the content block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

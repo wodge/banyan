@@ -1,0 +1,27 @@
+uuid: 07495c26-0205-4bf4-8124-06d6486698a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_theme_custom
+    - paragraphs.paragraphs_type.d_p_carousel_item
+  module:
+    - color_field
+_core:
+  default_config_hash: oNZB2oi_0t9J9ymd5Wohv2wpd-wI0huIhuzYbP1s4yQ
+id: paragraph.d_p_carousel_item.field_background_theme_custom
+field_name: field_background_theme_custom
+entity_type: paragraph
+bundle: d_p_carousel_item
+label: 'Background color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#ffffff'
+    opacity: null
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

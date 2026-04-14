@@ -1,0 +1,21 @@
+uuid: 61cfc111-6d63-4e03-8452-0ce3d9af34f9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: 7NZUST4lhuzKpRrVBAqlItF00qrOhzsBUzKt2XJ1gDw
+id: droopler_theme_followus
+theme: droopler_theme
+region: footer_primary_sixth
+weight: 0
+provider: null
+plugin: 'block_content:9b38fda4-aeec-4d86-9341-5bd313cb51fa'
+settings:
+  id: 'block_content:9b38fda4-aeec-4d86-9341-5bd313cb51fa'
+  label: 'Follow us'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

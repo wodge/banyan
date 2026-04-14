@@ -1,0 +1,21 @@
+uuid: c6c7cb91-90ca-4582-b48d-f9101d30670e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_d_blog_category
+    - taxonomy.vocabulary.blog_posts_category
+_core:
+  default_config_hash: bBGQQqkoKfdDH5HAf3_fE_9bqFP5rV72z6WixW6eIys
+id: taxonomy_term.blog_posts_category.field_d_blog_category
+field_name: field_d_blog_category
+entity_type: taxonomy_term
+bundle: blog_posts_category
+label: 'Blog category'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

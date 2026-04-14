@@ -1,0 +1,20 @@
+uuid: 9ebdf986-dabc-4963-96f5-3c21e19c0c1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 9AXbw0AI7R4s0LIl_ts48wlZHPGwaO13KT0m81iaZlo
+id: block_content.content_block
+target_entity_type_id: block_content
+target_bundle: content_block
+default_langcode: site_default
+language_alterable: true

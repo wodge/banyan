@@ -1,0 +1,20 @@
+uuid: f4bef1ff-7122-4bb4-8ae5-4b66d025f6db
+langcode: en
+status: true
+dependencies:
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: rAUMZa83DFp4_HJCXF1XcvszU9sAZjAyTNVesiYQLQg
+id: droopler_theme_primaryadminactions
+theme: droopler_theme
+region: admin_tabs
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

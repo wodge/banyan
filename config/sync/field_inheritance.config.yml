@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: FTUc18lth920DU6z-p4M7FwXVG6D8Qd4eThKi_E7ZNQ
+included_entities:
+  - block_content
+  - file
+  - node
+  - taxonomy_term
+  - eventinstance
+  - eventinstance

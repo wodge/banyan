@@ -1,0 +1,13 @@
+uuid: 96705822-6809-4612-b071-689aba7f5865
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 6l3JpQGlhD3WGFAfPjVTN0-CnHVfzoXMPMSQdn-PYkE
+id: media.d_blog_image
+label: 'Blog image'
+description: ''
+targetEntityType: media
+cache: true
