@@ -1,0 +1,70 @@
+uuid: c141f616-f307-4435-a1ab-51493e808e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.document.field_category
+    - field.field.node.document.field_department
+    - field.field.node.document.field_entity_reference_revisions
+    - field.field.node.document.field_event_summary
+    - field.field.node.document.field_file_attachment
+    - node.type.document
+  module:
+    - entity_reference_revisions
+    - file
+    - user
+id: node.document.default
+targetEntityType: node
+bundle: document
+mode: default
+content:
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_department:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_entity_reference_revisions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_event_summary:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_file_attachment:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true
