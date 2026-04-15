@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc6426a6f9cca7ed53a355972e888619",
+    "content-hash": "ad0ec49ad5aa39b96d5d50fcf6faac3f",
     "packages": [
         {
             "name": "algolia/places",
@@ -3333,62 +3333,6 @@
             }
         },
         {
-            "name": "drupal/field_inheritance",
-            "version": "3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/field_inheritance.git",
-                "reference": "3.0.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/field_inheritance-3.0.2.zip",
-                "reference": "3.0.2",
-                "shasum": "876de034b5420a8f32b0fc855bee6509813524d1"
-            },
-            "require": {
-                "drupal/core": "^10.3 || ^11"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "3.0.2",
-                    "datestamp": "1768392142",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "lullabot",
-                    "homepage": "https://www.drupal.org/user/3815489"
-                },
-                {
-                    "name": "owenbush",
-                    "homepage": "https://www.drupal.org/user/2765259"
-                },
-                {
-                    "name": "plopesc",
-                    "homepage": "https://www.drupal.org/user/282415"
-                }
-            ],
-            "description": "Provides the ability to inherit data from one entity to another",
-            "homepage": "https://www.drupal.org/project/field_inheritance",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "https://git.drupalcode.org/project/field_inheritance",
-                "issues": "https://www.drupal.org/project/issues/field_inheritance"
-            }
-        },
-        {
             "name": "drupal/field_validation",
             "version": "3.0.0-beta6",
             "source": {
@@ -5132,84 +5076,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/radix",
                 "issues": "https://www.drupal.org/project/issues/radix"
-            }
-        },
-        {
-            "name": "drupal/recurring_events",
-            "version": "3.0.0-alpha1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/recurring_events.git",
-                "reference": "3.0.0-alpha1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/recurring_events-3.0.0-alpha1.zip",
-                "reference": "3.0.0-alpha1",
-                "shasum": "8a7d6d61eabc8c6b6657b83f26da34d44f09479a"
-            },
-            "require": {
-                "drupal/core": "^10.3 || ^11",
-                "drupal/field_inheritance": "^3",
-                "php": "^8.3"
-            },
-            "require-dev": {
-                "drupal/daterange_compact": "^2",
-                "drupal/fullcalendar_view": "^5",
-                "drupal/group": "^1 || ^2",
-                "drupal/recurring_events_registration": "*",
-                "drupal/token": "^1.11",
-                "drush/drush": "^13"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "3.0.0-alpha1",
-                    "datestamp": "1768393000",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "ll66382",
-                    "homepage": "https://www.drupal.org/user/3674053"
-                },
-                {
-                    "name": "lullabot",
-                    "homepage": "https://www.drupal.org/user/3815489"
-                },
-                {
-                    "name": "owenbush",
-                    "homepage": "https://www.drupal.org/user/2765259"
-                },
-                {
-                    "name": "pfrenssen",
-                    "homepage": "https://www.drupal.org/user/382067"
-                },
-                {
-                    "name": "plopesc",
-                    "homepage": "https://www.drupal.org/user/282415"
-                },
-                {
-                    "name": "podarok",
-                    "homepage": "https://www.drupal.org/user/116002"
-                }
-            ],
-            "description": "Recurring Events and Registration Management Module",
-            "homepage": "https://www.drupal.org/project/recurring_events",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/recurring_events",
-                "issues": "https://www.drupal.org/project/issues/recurring_events"
             }
         },
         {
@@ -19646,7 +19512,6 @@
         "drupal/field_validation": 10,
         "drupal/login_destination": 10,
         "drupal/project_browser": 15,
-        "drupal/recurring_events": 15,
         "drupal/smtp": 10,
         "drupal/tvi": 20
     },

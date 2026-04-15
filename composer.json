@@ -85,7 +85,6 @@
     "drupal/profile": "^1.14",
     "drupal/project_browser": "^2.0@alpha",
     "drupal/radix": "^6.0.1",
-    "drupal/recurring_events": "^3.0@alpha",
     "drupal/redirect": "^1.0-beta1",
     "drupal/redis": "^1.7",
     "drupal/registration": "^3.4",
