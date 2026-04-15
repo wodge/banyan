@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: htEDAODocouXcQMZHh_nMOXG8fp_BtAmCkeaew7TV3Y
+threshold: '2'
+window: '3600'
+enable: 0

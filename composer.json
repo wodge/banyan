@@ -99,6 +99,7 @@
     "drupal/tracker": "^1.1",
     "drupal/tvi": "2.0.x-dev@dev",
     "drupal/twig_tweak": "^3.4",
+    "drupal/web_push": "^2.1",
     "drupal/webform": "6.3.0-beta1",
     "drush/drush": "^13",
     "mably/slick": "^1.8",

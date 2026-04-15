@@ -1,0 +1,63 @@
+{
+    "_hash": "a11d4fe582d721b3e7895e8dd3d2d96cd0f97ee85898cabae4dc8e423184cc96",
+    "patches": {
+        "drupal/core": [
+            {
+                "package": "drupal/core",
+                "description": "Claro - vertical tabs overflow",
+                "url": "https://git.drupalcode.org/project/drupal/-/merge_requests/5376.patch",
+                "sha256": "1df9893acc6f715da563e03d6d3876c46ea39aadb28ee0451d2f8c3b5bf1ec01",
+                "depth": 2,
+                "extra": {
+                    "provenance": "root"
+                }
+            },
+            {
+                "package": "drupal/core",
+                "description": "Claro - paragraphs overflow",
+                "url": "https://www.drupal.org/files/issues/2023-01-25/3145188-37_0.patch",
+                "sha256": "287c106ec60cb8bbe974d71c75937456bc04c858c23fb7f516498aa470de149f",
+                "depth": 2,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/frontend_editing": [
+            {
+                "package": "drupal/frontend_editing",
+                "description": "https://www.drupal.org/project/frontend_editing/issues/3517064",
+                "url": "https://git.drupalcode.org/project/frontend_editing/-/merge_requests/110.diff",
+                "sha256": "bcfb3cb9bc17d314afe2c52ca2cb307e5f23836580e55b3a8a26a59a49fa9438",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/paragraphs": [
+            {
+                "package": "drupal/paragraphs",
+                "description": "The 'paragraph' entity type did not specify a translation handler.",
+                "url": "https://www.drupal.org/files/issues/2021-01-22/paragraph-entity-type-did-not-specify-translation-halder-3031598-45.patch",
+                "sha256": "857d131c5c240a15e205aebeed011b745837caf66ff9b9ef0b8582afefbadbcb",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/ala": [
+            {
+                "package": "drupal/ala",
+                "description": "Fixed DI.",
+                "url": "patches/ala/ala_fix_di.patch",
+                "sha256": "4945f823341445e9eb992ce0277fc518c8ce3f681638adbdb580ae1b7a673587",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}
