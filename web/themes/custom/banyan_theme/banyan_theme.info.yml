@@ -20,3 +20,6 @@ regions:
   footer_primary_fifth: 'Footer Primary Fifth'
   footer_primary_sixth: 'Footer Primary Sixth'
   footer_secondary: 'Footer Secondary'
+components:
+  namespaces:
+    banyan_theme: components
