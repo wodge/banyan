@@ -81,6 +81,12 @@ em.placeholder {
   display: inline;
 }
 /* Groups listing - tile style */
+.view-groups .views-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
 .view-groups .views-col {
   background-color: var(--banyan-green);
   border-radius: 8px;
