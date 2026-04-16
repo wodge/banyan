@@ -80,27 +80,21 @@ em.placeholder {
   font-style: normal;
   display: inline;
 }
-/* Groups listing - tile grid */
-.view-groups .view-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  padding: 1rem 0;
-}
-
-.view-groups .views-row {
+/* Groups listing - tile style */
+.view-groups .views-col {
   background-color: var(--banyan-green);
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
   transition: background-color 0.2s ease;
+  box-sizing: border-box;
 }
 
-.view-groups .views-row:hover {
+.view-groups .views-col:hover {
   background-color: var(--banyan-green-dark);
 }
 
-.view-groups .views-row a {
+.view-groups .views-col a {
   color: #ffffff !important;
   font-weight: bold;
   font-size: 1.1rem;
@@ -108,8 +102,8 @@ em.placeholder {
   display: block;
 }
 
-.view-groups .field--name-type {
-  color: rgba(255,255,255,0.7);
+.view-groups .views-field-type a {
+  color: rgba(255,255,255,0.7) !important;
   font-size: 0.85rem;
-  margin-top: 0.5rem;
+  font-weight: normal;
 }
