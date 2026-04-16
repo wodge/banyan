@@ -128,4 +128,8 @@ h1 em.placeholder {
   font-style: normal;
   font-weight: inherit;
 }
+/* Hide broken group nodes page title - admin only page */
+.path-group .page-title {
+  display: none;
+}
 
