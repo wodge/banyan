@@ -80,4 +80,36 @@ em.placeholder {
   font-style: normal;
   display: inline;
 }
+/* Groups listing - tile grid */
+.view-groups .view-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
 
+.view-groups .views-row {
+  background-color: var(--banyan-green);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.view-groups .views-row:hover {
+  background-color: var(--banyan-green-dark);
+}
+
+.view-groups .views-row a {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.view-groups .field--name-type {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
