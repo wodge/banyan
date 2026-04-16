@@ -24,3 +24,4 @@ components:
   namespaces:
     banyan_theme: components
     droopler_theme: components
+    radix: components
