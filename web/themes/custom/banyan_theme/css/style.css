@@ -123,3 +123,9 @@ h1 em.placeholder {
   display: none;
 }
 
+/* Hide placeholder em tags in page titles */
+h1 em.placeholder {
+  font-style: normal;
+  font-weight: inherit;
+}
+

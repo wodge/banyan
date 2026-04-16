@@ -5,6 +5,8 @@
  */
 function banyan_theme_preprocess_page_title(&$variables) {
   if (isset($variables['title'])) {
-    $variables['title'] = \Drupal\Core\Render\Markup::create(strip_tags(htmlspecialchars_decode((string) $variables['title'])));
+    $title = (string) $variables['title'];
+    $title = preg_replace('/<em class="placeholder">(.*?)<\/em>/', '$1', $title);
+    $variables['title'] = \Drupal\Core\Render\Markup::create($title);
   }
 }
