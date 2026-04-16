@@ -1,2 +1,1 @@
-// Banyan - Web Push Service Worker
-importScripts("/js/web-push/service-worker");
+importScripts('/modules/contrib/web_push/js/service_worker_notification.js');
