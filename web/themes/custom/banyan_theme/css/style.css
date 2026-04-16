@@ -75,3 +75,9 @@ a:hover {
   margin-left: calc(-50vw + 50%);
   max-width: 100vw;
 }
+/* Fix Bootstrap placeholder conflict with Drupal */
+em.placeholder {
+  font-style: normal;
+  display: inline;
+}
+
