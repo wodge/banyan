@@ -6,5 +6,5 @@ _core:
   default_config_hash: TsMZxiHVz-5wnFHgU4NHe6sfht27H9OxXGbf-EIeTJA
 id: content_block
 label: 'Content block'
-revision: 0
+revision: false
 description: 'Content block'

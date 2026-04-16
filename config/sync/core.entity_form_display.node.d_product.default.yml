@@ -212,9 +212,9 @@ content:
     third_party_settings: {  }
   translation:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   url_redirects:
     weight: 4
     region: content
@@ -222,6 +222,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_inheritance: true
   promote: true
   sticky: true
   uid: true

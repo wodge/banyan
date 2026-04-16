@@ -2,10 +2,7 @@ uuid: d788aa2a-f0b8-490a-a267-d210c96facca
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:reset_button:4a7cdf0b-da1f-4140-8c7e-0db12502639a'
   module:
-    - block_content
     - system
   theme:
     - banyan_theme

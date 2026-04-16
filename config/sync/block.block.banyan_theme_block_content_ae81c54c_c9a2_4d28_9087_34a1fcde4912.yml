@@ -2,10 +2,6 @@ uuid: 759110ad-39ba-4af4-b775-bf56507a466c
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:content_block:ae81c54c-c9a2-4d28-9087-34a1fcde4912'
-  module:
-    - block_content
   theme:
     - banyan_theme
 _core:

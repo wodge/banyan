@@ -13,12 +13,12 @@ pattern: 'products/[node:title]'
 selection_criteria:
   c4b66d38-ab92-4918-a2fb-5dce6f0edced:
     id: 'entity_bundle:node'
-    bundles:
-      d_product: d_product
     negate: false
+    uuid: c4b66d38-ab92-4918-a2fb-5dce6f0edced
     context_mapping:
       node: node
-    uuid: c4b66d38-ab92-4918-a2fb-5dce6f0edced
+    bundles:
+      d_product: d_product
 selection_logic: and
 weight: -5
 relationships: {  }

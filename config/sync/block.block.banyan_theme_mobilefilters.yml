@@ -2,10 +2,7 @@ uuid: 73451cf7-346d-4d3b-aeba-15347488be59
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:mobile_filters:97f6e1da-3543-475e-93e4-bea115d6aaea'
   module:
-    - block_content
     - system
   theme:
     - banyan_theme

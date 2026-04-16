@@ -5,7 +5,7 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://banyanFont_0.png'
+  path: 'public://rammy_0.jpeg'
 favicon:
   use_default: 1
 mobile_breakpoint: ''

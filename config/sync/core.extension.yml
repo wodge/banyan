@@ -38,7 +38,6 @@ module:
   facets: 0
   field: 0
   field_group: 0
-  field_inheritance: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -79,13 +78,11 @@ module:
   private_message: 0
   profile: 0
   project_browser: 0
-  recurring_events: 0
   redirect: 0
   registration: 0
   responsive_image: 0
   rest: 0
   roleassign: 0
-  search: 0
   search_api: 0
   search_api_db: 0
   serialization: 0

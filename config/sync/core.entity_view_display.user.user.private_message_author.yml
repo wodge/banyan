@@ -15,18 +15,19 @@ bundle: user
 mode: private_message_author
 content:
   block_user:
-    weight: 0
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   linked_username:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   langcode: true
   member_for: true
   private_message_link: true
   search_api_excerpt: true
+  staff_profile_profiles: true
   user_picture: true

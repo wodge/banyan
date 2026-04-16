@@ -15,12 +15,12 @@ bundle: blog_posts_category
 mode: default
 content:
   description:
-    label: hidden
     type: text_default
-    weight: 0
-    region: content
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_d_blog_category: true
   langcode: true

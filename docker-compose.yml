@@ -1,0 +1,40 @@
+services:
+  bandroom-web:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - bandroom-db
+    volumes:
+      - bandroom-files:/opt/drupal/web/sites/default/files
+      - ./private:/opt/drupal/private
+      - ./settings.production.php:/opt/drupal/web/sites/default/settings.php
+      - ./config/sync:/opt/drupal/config/sync
+    networks:
+      - web
+      - bandroom-internal
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.bandroom.rule=Host(`bandroom.wabb.co.uk`)"
+      - "traefik.http.routers.bandroom.entrypoints=websecure"
+      - "traefik.http.routers.bandroom.tls.certresolver=letsencrypt"
+      - "traefik.docker.network=web"
+  bandroom-db:
+    image: mariadb:11
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: bandroom
+      MARIADB_USER: bandroom
+      MARIADB_PASSWORD: Ge0rg1@1234#!
+      MARIADB_ROOT_PASSWORD: Ge0rg1@1234#!
+    volumes:
+      - bandroom-db-data:/var/lib/mysql
+    networks:
+      - bandroom-internal
+volumes:
+  bandroom-files:
+  bandroom-db-data:
+networks:
+  web:
+    external: true
+  bandroom-internal:
+    internal: true
