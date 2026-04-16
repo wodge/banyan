@@ -118,3 +118,8 @@ em.placeholder {
 h1 em.placeholder {
   font-style: normal;
 }
+/* Hide broken group nodes page title */
+.path--group .page-title {
+  display: none;
+}
+
