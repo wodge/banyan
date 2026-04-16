@@ -1,1 +1,5 @@
-<h1{{ title_attributes }}>{{ title|raw }}</h1>
+{{ title_prefix }}
+{% if title %}
+  <h1 class="title page-title">{{ title|raw }}</h1>
+{% endif %}
+{{ title_suffix }}
