@@ -13,6 +13,7 @@ scope: insider
 global_role: authenticated
 group_type: internal_group
 permissions:
+  - 'access group_node overview'
   - 'administer group invitations'
   - 'create discussion group_node entity'
   - 'create group_node:discussion entity'
@@ -37,4 +38,5 @@ permissions:
   - 'view group'
   - 'view group invitations'
   - 'view group members'
+  - 'view group_membership relationship'
   - 'view news group_node entity'
