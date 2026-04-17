@@ -22,7 +22,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Nodes
+      title: 'Group Content'
       fields:
         title:
           id: title
@@ -925,10 +925,9 @@ display:
       path: group/%group/nodes
       menu:
         type: tab
-        title: Nodes
+        title: 'Add Content'
         description: ''
         weight: 25
-        enabled: true
         expanded: false
         menu_name: main
         parent: ''

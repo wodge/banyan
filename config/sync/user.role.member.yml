@@ -2,14 +2,46 @@ uuid: cea4f431-7b18-4df3-a881-2c64f73c52e7
 langcode: en
 status: true
 dependencies:
+  config:
+    - media.type.d_document
+    - media.type.d_image
+    - media.type.d_video
+    - node.type.discussion
+    - node.type.document
+    - node.type.event
+    - node.type.news
   module:
     - comment
+    - group
+    - media
+    - node
+    - profile
     - system
 id: member
 label: Member
 weight: 6
 is_admin: false
 permissions:
+  - 'access comments'
   - 'access content'
+  - 'access group overview'
+  - 'create d_document media'
+  - 'create d_image media'
+  - 'create d_video media'
+  - 'create discussion content'
+  - 'create document content'
+  - 'create event content'
+  - 'create news content'
+  - 'delete own d_document media'
+  - 'delete own d_image media'
+  - 'delete own d_video media'
+  - 'edit own comments'
+  - 'edit own d_document media'
+  - 'edit own d_image media'
+  - 'edit own d_video media'
   - 'post comments'
   - 'skip comment approval'
+  - 'update media'
+  - 'view own profile'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
