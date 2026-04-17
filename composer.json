@@ -75,6 +75,7 @@
     "drupal/group": "^3.3",
     "drupal/link_attributes": "^1.1 || ^2.1",
     "drupal/login_destination": "^2.0@beta",
+    "drupal/masquerade": "^2.1",
     "drupal/media_library_form_element": "^2.1",
     "drupal/menu_admin_per_menu": "^1.6",
     "drupal/message": "^1.8",
