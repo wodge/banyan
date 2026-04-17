@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.document.field_category
+    - field.field.node.document.field_comment
     - field.field.node.document.field_department
     - field.field.node.document.field_entity_reference_revisions
     - field.field.node.document.field_event_summary
     - field.field.node.document.field_file_attachment
     - node.type.document
   module:
+    - comment
     - file
     - paragraphs
     - path
@@ -33,6 +35,12 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_comment:
+    type: comment_default
+    weight: 131
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_department:
     type: entity_reference_autocomplete

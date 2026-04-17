@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.event.field_comment
     - field.field.node.event.field_datetime_end
     - field.field.node.event.field_datetime_start
     - field.field.node.event.field_entity_reference_revisions
@@ -14,6 +16,7 @@ dependencies:
     - field.field.node.event.field_taxonomy_reference
     - node.type.event
   module:
+    - comment
     - datetime
     - entity_reference_revisions
     - link
@@ -24,6 +27,15 @@ targetEntityType: node
 bundle: event
 mode: default
 content:
+  field_comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 111
+    region: content
   field_datetime_end:
     type: datetime_default
     label: above

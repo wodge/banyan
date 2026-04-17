@@ -3,11 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.discussion.field_category
+    - field.field.node.discussion.field_comment
     - field.field.node.discussion.field_full_description
     - field.field.node.discussion.field_imagre
     - node.type.discussion
   module:
+    - comment
     - text
     - user
 id: node.discussion.default
@@ -22,6 +25,15 @@ content:
       link: true
     third_party_settings: {  }
     weight: 110
+    region: content
+  field_comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 111
     region: content
   field_full_description:
     type: text_default

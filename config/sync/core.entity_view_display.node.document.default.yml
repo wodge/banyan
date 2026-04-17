@@ -3,13 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.document.field_category
+    - field.field.node.document.field_comment
     - field.field.node.document.field_department
     - field.field.node.document.field_entity_reference_revisions
     - field.field.node.document.field_event_summary
     - field.field.node.document.field_file_attachment
     - node.type.document
   module:
+    - comment
     - entity_reference_revisions
     - file
     - user
@@ -25,6 +28,15 @@ content:
       link: true
     third_party_settings: {  }
     weight: 110
+    region: content
+  field_comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 111
     region: content
   field_department:
     type: entity_reference_label

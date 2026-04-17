@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.event.field_comment
     - field.field.node.event.field_datetime_end
     - field.field.node.event.field_datetime_start
     - field.field.node.event.field_entity_reference_revisions
@@ -14,6 +15,7 @@ dependencies:
     - field.field.node.event.field_taxonomy_reference
     - node.type.event
   module:
+    - comment
     - datetime
     - link
     - media_library
@@ -28,6 +30,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_comment:
+    type: comment_default
+    weight: 131
     region: content
     settings: {  }
     third_party_settings: {  }
