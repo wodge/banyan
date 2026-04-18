@@ -4,3 +4,8 @@ global:
       css/style.css: {}
   js:
     js/script.js: {}
+    js/comments.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
