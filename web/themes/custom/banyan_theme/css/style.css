@@ -132,10 +132,7 @@ h1 em.placeholder {
 .path-group .page-title {
   display: none;
 }
-/* Hide default comment form header */
-.comment-form-wrapper h2,
-#comment-form h2,
-.field--type-comment .comment-add {
+/* Hide comment form card header */
+.comment-form .card-header {
   display: none;
 }
-
