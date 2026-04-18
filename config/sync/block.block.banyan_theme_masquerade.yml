@@ -1,0 +1,21 @@
+uuid: 9898e344-26a7-4ea8-af6d-384c8725e1a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+  theme:
+    - banyan_theme
+id: banyan_theme_masquerade
+theme: banyan_theme
+region: footer_secondary
+weight: 0
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  label_display: visible
+  provider: masquerade
+  show_unmasquerade_link: false
+visibility: {  }
