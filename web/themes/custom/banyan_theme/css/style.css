@@ -136,3 +136,19 @@ h1 em.placeholder {
 .field--type-comment .card-header {
   display: none;
 }
+/* Group content feed - centered and boxed */
+.path-group .view-group-content .views-row {
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.path-group .page__content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
