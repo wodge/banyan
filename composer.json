@@ -73,6 +73,7 @@
     "drupal/google_analytics": "^4.0",
     "drupal/google_tag": "^2.0",
     "drupal/group": "^3.3",
+    "drupal/legal": "^3.0",
     "drupal/link_attributes": "^1.1 || ^2.1",
     "drupal/login_destination": "^2.0@beta",
     "drupal/masquerade": "^2.1",
