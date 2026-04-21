@@ -1,0 +1,23 @@
+uuid: 97f23037-7167-4191-b15f-e332fb9030a5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_block:7d9839be-050e-4d54-a2cf-2fd3e6718d2f'
+  module:
+    - block_content
+  theme:
+    - banyan_theme
+id: banyan_theme_footerlinks
+theme: banyan_theme
+region: footer_primary_first
+weight: 0
+provider: null
+plugin: 'block_content:7d9839be-050e-4d54-a2cf-2fd3e6718d2f'
+settings:
+  id: 'block_content:7d9839be-050e-4d54-a2cf-2fd3e6718d2f'
+  label: 'Footer links'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

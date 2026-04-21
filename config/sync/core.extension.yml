@@ -28,8 +28,6 @@ module:
   datetime_range: 0
   dblog: 0
   default_content: 0
-  devel: 0
-  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   emulsify_twig: 0
@@ -57,6 +55,7 @@ module:
   language: 0
   layout_builder: 0
   layout_discovery: 0
+  legal: 0
   link: 0
   link_attributes: 0
   locale: 0

@@ -1,0 +1,25 @@
+uuid: 94cad266-3826-4086-b4be-2b58e9ddaf19
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bottom-footer-menu
+  module:
+    - system
+  theme:
+    - banyan_theme
+id: banyan_theme_bottomfootermenu
+theme: banyan_theme
+region: footer_primary_third
+weight: -12
+provider: null
+plugin: 'system_menu_block:bottom-footer-menu'
+settings:
+  id: 'system_menu_block:bottom-footer-menu'
+  label: 'Bottom footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }
