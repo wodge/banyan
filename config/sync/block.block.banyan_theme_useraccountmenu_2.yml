@@ -6,6 +6,7 @@ dependencies:
     - system.menu.account
   module:
     - system
+    - user
   theme:
     - banyan_theme
 id: banyan_theme_useraccountmenu_2
@@ -22,4 +23,16 @@ settings:
   level: 1
   depth: null
   expand_all_items: false
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      d_editor: d_editor
+      site_manager: site_manager
+      content_editor: content_editor
+      member: member

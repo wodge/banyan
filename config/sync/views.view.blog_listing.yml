@@ -399,7 +399,7 @@ display:
         type: normal
         title: Blog
         description: 'List of blog posts'
-        weight: -43
+        weight: -49
         enabled: false
         expanded: false
         menu_name: main

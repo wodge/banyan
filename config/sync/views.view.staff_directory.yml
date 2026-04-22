@@ -467,7 +467,7 @@ display:
         type: normal
         title: 'Staff Directory'
         description: ''
-        weight: 0
+        weight: -43
         expanded: false
         menu_name: main
         parent: ''

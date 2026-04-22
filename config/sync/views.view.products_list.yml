@@ -366,7 +366,7 @@ display:
         type: normal
         title: Products
         description: null
-        weight: -47
+        weight: -50
         enabled: false
         expanded: false
         menu_name: main

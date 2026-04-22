@@ -461,7 +461,7 @@ display:
         type: normal
         title: Events
         description: ''
-        weight: 0
+        weight: -46
         expanded: false
         menu_name: main
         parent: ''
