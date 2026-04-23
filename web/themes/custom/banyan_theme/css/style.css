@@ -151,4 +151,62 @@ h1 em.placeholder {
   max-width: 900px;
   margin: 0 auto;
 }
+/* File attachment styling */
+.field--name-field-file-attachment .file a::before {
+  content: '📄 ';
+}
+
+.field--name-field-file-attachment .file a {
+  display: inline-block;
+  background: #2d6a4f;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.field--name-field-file-attachment .file a:hover {
+  background: #1b4332;
+}
+/* File attachment styling */
+a[type="application/pdf"],
+a[type="application/msword"],
+a[type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"] {
+  display: inline-block;
+  background: #2d6a4f;
+  color: white !important;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
+a[type="application/pdf"]::before {
+  content: '📄 ';
+}
+
+a[type="application/pdf"]:hover {
+  background: #1b4332;
+}
+
+.file-size {
+  display: none;
+}
+/* Full node content centering */
+.node__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Align comment section with content */
+[data-component-id="radix:field-comment"] .row {
+  justify-content: center;
+}
+
+[data-component-id="radix:field-comment"] .col-md-10 {
+  max-width: 800px;
+}
 
