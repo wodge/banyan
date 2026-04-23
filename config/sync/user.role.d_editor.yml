@@ -17,6 +17,8 @@ dependencies:
     - node.type.blog_post
     - node.type.content_page
     - node.type.d_product
+    - node.type.discussion
+    - node.type.event
     - taxonomy.vocabulary.blog_posts_category
     - taxonomy.vocabulary.d_product_categories
     - taxonomy.vocabulary.tags
@@ -96,6 +98,8 @@ permissions:
   - 'delete any d_paragraph_block block content revisions'
   - 'delete any d_product content'
   - 'delete any d_video media'
+  - 'delete any discussion content'
+  - 'delete any event content'
   - 'delete any mobile_filters block content'
   - 'delete any mobile_filters block content revisions'
   - 'delete any mobile_filters_submit block content'
@@ -118,6 +122,8 @@ permissions:
   - 'delete own d_image media'
   - 'delete own d_product content'
   - 'delete own d_video media'
+  - 'delete own discussion content'
+  - 'delete own event content'
   - 'delete own webform'
   - 'delete own webform submission'
   - 'delete term revisions in blog_posts_category'
@@ -134,6 +140,8 @@ permissions:
   - 'edit any d_paragraph_block block content'
   - 'edit any d_product content'
   - 'edit any d_video media'
+  - 'edit any discussion content'
+  - 'edit any event content'
   - 'edit any mobile_filters block content'
   - 'edit any mobile_filters_submit block content'
   - 'edit any reset_button block content'
@@ -148,6 +156,8 @@ permissions:
   - 'edit own d_image media'
   - 'edit own d_product content'
   - 'edit own d_video media'
+  - 'edit own discussion content'
+  - 'edit own event content'
   - 'edit own webform'
   - 'edit own webform submission'
   - 'edit terms in blog_posts_category'

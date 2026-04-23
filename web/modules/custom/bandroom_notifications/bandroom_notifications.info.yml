@@ -1,0 +1,9 @@
+name: Bandroom Notifications
+description: Sends email notifications for new group posts and comments.
+type: module
+core_version_requirement: ^10 || ^11
+package: Custom
+dependencies:
+  - message:message
+  - message_notify:message_notify
+  - message_subscribe:message_subscribe

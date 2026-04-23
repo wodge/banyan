@@ -14,7 +14,6 @@ global_role: authenticated
 group_type: internal_group
 permissions:
   - 'access group_node overview'
-  - 'administer group invitations'
   - 'create discussion group_node entity'
   - 'create group_node:discussion entity'
   - 'create group_node:document entity'
@@ -36,7 +35,11 @@ permissions:
   - 'view document group_node entity'
   - 'view event group_node entity'
   - 'view group'
-  - 'view group invitations'
   - 'view group members'
   - 'view group_membership relationship'
+  - 'view group_node:discussion entity'
+  - 'view group_node:document entity'
+  - 'view group_node:event entity'
+  - 'view group_node:news entity'
   - 'view news group_node entity'
+  - 'view unpublished group_node:event entity'

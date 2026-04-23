@@ -20,7 +20,6 @@ module:
   conditional_fields: 0
   config: 0
   config_translation: 0
-  content_access: 0
   contextual: 0
   ctools: 0
   dashboard: 0

@@ -4,22 +4,20 @@ status: true
 dependencies:
   config:
     - group.type.internal_group
-    - user.role.member
 id: internal_group-editor
 label: 'Group Editor'
 weight: 0
 admin: false
-scope: insider
-global_role: member
+scope: individual
+global_role: null
 group_type: internal_group
 permissions:
-  - 'administer group invitations'
+  - 'administer members'
   - 'bulk invite users to group'
   - 'create discussion group_node entity'
   - 'create document group_node entity'
   - 'create event group_node entity'
   - 'create group_node:discussion entity'
-  - 'create group_node:discussion relationship'
   - 'create group_node:document entity'
   - 'create group_node:document relationship'
   - 'create group_node:event entity'
@@ -32,10 +30,8 @@ permissions:
   - 'delete any group_node:document entity'
   - 'delete any group_node:document relationship'
   - 'delete any group_node:event entity'
-  - 'delete any group_node:event relationship'
   - 'delete any group_node:news entity'
   - 'delete any group_node:news relationship'
-  - 'delete any invitation'
   - 'delete own discussion group_node entity'
   - 'delete own document group_node entity'
   - 'delete own event group_node entity'
@@ -47,12 +43,10 @@ permissions:
   - 'delete own group_node:event relationship'
   - 'delete own group_node:news entity'
   - 'delete own group_node:news relationship'
-  - 'delete own invitation'
   - 'delete own news group_node entity'
   - 'edit any document group_node entity'
   - 'edit any event group_node entity'
   - 'edit any news group_node entity'
-  - 'edit group'
   - 'edit own discussion group_node entity'
   - 'edit own document group_node entity'
   - 'edit own event group_node entity'
@@ -63,11 +57,9 @@ permissions:
   - 'update any group_node:discussion entity'
   - 'update any group_node:discussion relationship'
   - 'update any group_node:document entity'
-  - 'update any group_node:document relationship'
   - 'update any group_node:event entity'
   - 'update any group_node:event relationship'
   - 'update any group_node:news entity'
-  - 'update any group_node:news relationship'
   - 'update own group_node:discussion entity'
   - 'update own group_node:discussion relationship'
   - 'update own group_node:document entity'
@@ -92,11 +84,4 @@ permissions:
   - 'view group_node:news entity'
   - 'view group_node:news relationship'
   - 'view news group_node entity'
-  - 'view own unpublished group_node:discussion entity'
-  - 'view own unpublished group_node:document entity'
-  - 'view own unpublished group_node:event entity'
-  - 'view own unpublished group_node:news entity'
-  - 'view unpublished group_node:discussion entity'
-  - 'view unpublished group_node:document entity'
   - 'view unpublished group_node:event entity'
-  - 'view unpublished group_node:news entity'

@@ -41,3 +41,4 @@ drush-backups
 /web/*.php
 /web/web.config
 /web/robots.txt
+bandroom-live.sql.gz

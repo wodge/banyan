@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5a12483ab31800ced3bd048fb164f5c",
+    "content-hash": "7cd74e9eac1d405d0b0aff7c610f1def",
     "packages": [
         {
             "name": "algolia/places",
@@ -4833,6 +4833,83 @@
                 "source": "https://cgit.drupalcode.org/message_notify",
                 "issues": "https://drupal.org/project/issues/message_notify",
                 "irc": "irc://irc.freenode.org/drupal"
+            }
+        },
+        {
+            "name": "drupal/message_subscribe",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/message_subscribe.git",
+                "reference": "2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/message_subscribe-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "bcb7f9a9f070abdd8d7ee50db6dfaa1106338736"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11 || ^12",
+                "drupal/flag": "^4.0 || ^5.0",
+                "drupal/message": "^1.0",
+                "drupal/message_notify": "^1.0"
+            },
+            "require-dev": {
+                "drupal/flag": "*",
+                "drupal/message": "*",
+                "drupal/message_notify": "*",
+                "drupal/message_notify_ui": "*",
+                "drupal/message_subscribe_ui": "*",
+                "drupal/message_ui": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0",
+                    "datestamp": "1768443552",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "amitaibu",
+                    "homepage": "https://www.drupal.org/user/57511"
+                },
+                {
+                    "name": "bluegeek9",
+                    "homepage": "https://www.drupal.org/user/1286304"
+                },
+                {
+                    "name": "fubhy",
+                    "homepage": "https://www.drupal.org/user/761344"
+                },
+                {
+                    "name": "jhedstrom",
+                    "homepage": "https://www.drupal.org/user/208732"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "roysegall",
+                    "homepage": "https://www.drupal.org/user/1812910"
+                }
+            ],
+            "description": "Subscription API for the Message and Message notify modules",
+            "homepage": "https://drupal.org/project/message_subscribe",
+            "support": {
+                "source": "https://cgit.drupalcode.org/message_subscribe",
+                "issues": "https://drupal.org/project/issues/message_subscribe"
             }
         },
         {

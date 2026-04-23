@@ -1,0 +1,58 @@
+uuid: 03488283-f2e6-4c13-9c09-bf8b3bb15aa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.discussion.field_category
+    - field.field.node.discussion.field_comment
+    - field.field.node.discussion.field_full_description
+    - field.field.node.discussion.field_imagre
+    - node.type.discussion
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.discussion.teaser
+targetEntityType: node
+bundle: discussion
+mode: teaser
+content:
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_full_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imagre:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_comment: true
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true

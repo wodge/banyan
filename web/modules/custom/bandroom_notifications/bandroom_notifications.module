@@ -1,0 +1,78 @@
+<?php
+
+/**
+ * @file
+ * Bandroom notification hooks for group posts and comments.
+ */
+
+use Drupal\message\Entity\Message;
+use Drupal\message_notify\MessageNotifier;
+use Drupal\group\Entity\GroupInterface;
+
+/**
+ * Implements hook_node_insert().
+ */
+function bandroom_notifications_node_insert($node) {
+  $group_content = \Drupal::entityTypeManager()
+    ->getStorage('group_relationship')
+    ->loadByEntity($node);
+
+  foreach ($group_content as $relationship) {
+    $group = $relationship->getGroup();
+    $members = $group->getMembers();
+
+    foreach ($members as $member) {
+      $account = $member->getUser();
+      if ($account->id() == $node->getOwnerId()) {
+        continue; // Don't notify the author
+      }
+
+      $message = Message::create([
+        'template' => 'new_group_post',
+        'uid' => $account->id(),
+        'field_node' => $node->id(),
+        'field_group' => $group->id(),
+      ]);
+      $message->save();
+
+      $notifier = \Drupal::service('message_notify.sender');
+      $notifier->send($message, [], 'email');
+    }
+  }
+}
+
+/**
+ * Implements hook_comment_insert().
+ */
+function bandroom_notifications_comment_insert($comment) {
+  $node = $comment->getCommentedEntity();
+  if (!$node) return;
+
+  $group_content = \Drupal::entityTypeManager()
+    ->getStorage('group_relationship')
+    ->loadByEntity($node);
+
+  foreach ($group_content as $relationship) {
+    $group = $relationship->getGroup();
+    $members = $group->getMembers();
+
+    foreach ($members as $member) {
+      $account = $member->getUser();
+      if ($account->id() == $comment->getOwnerId()) {
+        continue; // Don't notify the commenter
+      }
+
+      $message = Message::create([
+        'template' => 'new_group_comment',
+        'uid' => $account->id(),
+        'field_node' => $node->id(),
+        'field_group' => $group->id(),
+      ]);
+      $message->save();
+
+      $notifier = \Drupal::service('message_notify.sender');
+      $notifier->send($message, [], 'email');
+    }
+  }
+}
+

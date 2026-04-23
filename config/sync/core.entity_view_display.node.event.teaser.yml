@@ -1,0 +1,122 @@
+uuid: ac3ad4e2-c8a1-4ff1-9230-cd14af20cc73
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_comment
+    - field.field.node.event.field_datetime_end
+    - field.field.node.event.field_datetime_start
+    - field.field.node.event.field_entity_reference_revisions
+    - field.field.node.event.field_event_summary
+    - field.field.node.event.field_full_description
+    - field.field.node.event.field_imagre
+    - field.field.node.event.field_location
+    - field.field.node.event.field_registration_link
+    - field.field.node.event.field_taxonomy_reference
+    - node.type.event
+  module:
+    - datetime
+    - entity_reference_revisions
+    - layout_builder
+    - link
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  field_datetime_end:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_datetime_start:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_entity_reference_revisions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_event_summary:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_full_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_imagre:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_registration_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_taxonomy_reference:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_comment: true
+  langcode: true
+  private_message_link: true
+  search_api_excerpt: true

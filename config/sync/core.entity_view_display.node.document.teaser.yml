@@ -1,8 +1,10 @@
-uuid: c141f616-f307-4435-a1ab-51493e808e5a
+uuid: c58f0fcc-dc0e-4970-b8f9-2b5e76f319be
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
+    - core.entity_view_mode.node.teaser
     - field.field.node.document.field_category
     - field.field.node.document.field_comment
     - field.field.node.document.field_department
@@ -11,13 +13,19 @@ dependencies:
     - field.field.node.document.field_file_attachment
     - node.type.document
   module:
+    - comment
     - entity_reference_revisions
     - file
+    - layout_builder
     - user
-id: node.document.default
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.document.teaser
 targetEntityType: node
 bundle: document
-mode: default
+mode: teaser
 content:
   field_category:
     type: entity_reference_label
@@ -25,7 +33,16 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 3
+    weight: 110
+    region: content
+  field_comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 111
     region: content
   field_department:
     type: entity_reference_label
@@ -33,7 +50,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 5
+    weight: 112
     region: content
   field_entity_reference_revisions:
     type: entity_reference_revisions_entity_view
@@ -42,7 +59,7 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 109
     region: content
   field_event_summary:
     type: string
@@ -50,7 +67,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 1
+    weight: 105
     region: content
   field_file_attachment:
     type: file_default
@@ -58,15 +75,14 @@ content:
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 4
+    weight: 111
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 100
     region: content
 hidden:
-  field_comment: true
   langcode: true
   private_message_link: true
   search_api_excerpt: true
